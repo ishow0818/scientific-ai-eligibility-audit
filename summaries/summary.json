@@ -1,0 +1,45 @@
+{
+  "phase": "2E",
+  "timestamp_utc": "2026-10-10T08:24:18.965151+00:00",
+  "scope": "five frozen strict cases; local computational verification only",
+  "not_historical_campaign": true,
+  "not_blind_queue": true,
+  "selection_note": "These five cases were screened from the complete Exp.json as counterexamples; they are not a blind evaluation queue.",
+  "n_cases": 5,
+  "n_unique_candidate_routes": 4,
+  "unique_candidate_routes": [
+    "Ba2(CuO2)3, BaO, Cu2O, Y2O3",
+    "Ba2(CuO2)3, BaO, Cu2O, Y2Cu2O5",
+    "Ba2(CuO2)3, BaO, Y2Cu2O5",
+    "Ba2(CuO2)3, Y2O3"
+  ],
+  "target": "Ba2YCu3O7",
+  "temps": [
+    600,
+    700,
+    800,
+    900
+  ],
+  "redundancy_atol": 0.1,
+  "ladder": [
+    600,
+    700,
+    800,
+    900
+  ],
+  "identity_600_match": 5,
+  "on_off_gate_causation": 5,
+  "isolation_pass": 5,
+  "candidate_900_pure": 5,
+  "access_log_events": 50,
+  "inconsistencies": [],
+  "verdict": "PASS",
+  "manuscript_ready": "YES_LOCAL_VERIFICATION_ONLY",
+  "allowed_claim": "Heuristic redundancy screening with experimental low-T support can block later tests of a route that is actually successful. That screening basis is not itself scientific exclusion.",
+  "disallowed_claim": "NO_INDEPENDENT_EXPERIMENTAL_EXCLUSION as a synonym for unobserved candidate high-T",
+  "sha256": {
+    "Exp.json": "61a9efa9e2adab31a453de80ed2a0457b53705b5c75807036c04e9bc0547f0e9",
+    "Settings.json": "e8b6e0909d87bf110d334bc0850b299c7aa6591a7e5c07a775191f385d77e605",
+    "phase2d_case_manifest.csv": "486f67c863b3d53a757e7ae34da03b7c12373d1d3c03d7509add41d4ab3653ee"
+  }
+}

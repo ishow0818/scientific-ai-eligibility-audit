@@ -1,0 +1,18 @@
+{
+  "Engineering": "PASS",
+  "Local_amplification_mechanism": "PASS",
+  "Theoretical_R_id_threshold": "PASS",
+  "Growth_law_correspondence": "PASS",
+  "Recursion_specificity": "PASS",
+  "Large_N_persistence": "PASS",
+  "Bias_not_required": "PASS",
+  "Bias_selects_direction": "PASS",
+  "Downstream_apparent_uniqueness": "SUPPORTED",
+  "Universal_finite_time_collapse_threshold": "NOT CLAIMED",
+  "revised_core_mechanism": "PASS",
+  "provenance": {
+    "deterministic": "recomputed in this package with frozen F(q) and grids",
+    "early_stochastic": "recomputed with frozen StochasticGrid (same N,T seeds as verified run)",
+    "terminal_summaries": "D:\\home\\Identifiability\\outputs\\pilot_alt_dynamics"
+  }
+}

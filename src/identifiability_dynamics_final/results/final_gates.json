@@ -1,0 +1,59 @@
+{
+  "G1_local_sign_transition": {
+    "pass": true,
+    "frac_lambda_neg_R_le_0.95": 1.0,
+    "frac_lambda_pos_R_ge_1.05": 1.0
+  },
+  "G2_threshold_alignment": {
+    "pass": true,
+    "status": "PASS",
+    "fraction_aligned": 1.0,
+    "n_resolvable": 36
+  },
+  "G3_growth_law": {
+    "pass": true,
+    "pearson_r_pooled": 0.999999954228492,
+    "spearman_rho_pooled": 0.9992329944056221
+  },
+  "G4_recursion_specificity": {
+    "pass": true,
+    "median_Amplification_excess_10": 7.978034599397537,
+    "median_D10_recursive": 0.35484,
+    "median_D10_NR": 0.03915000000000002
+  },
+  "G5_large_N_persistence": {
+    "pass": true,
+    "rows": [
+      {
+        "N": 500,
+        "D10_rec": 0.132444,
+        "D10_nr": 0.016716000000000012,
+        "Amplification_excess_10": 6.566500226963229,
+        "ok": true,
+        "terminal_Pcollapse_rec": 0.558,
+        "terminal_Pcollapse_nr": 0.0
+      },
+      {
+        "N": 2000,
+        "D10_rec": 0.065814,
+        "D10_nr": 0.008712999999999993,
+        "Amplification_excess_10": 6.666783420899012,
+        "ok": true,
+        "terminal_Pcollapse_rec": 0.652,
+        "terminal_Pcollapse_nr": 0.0
+      }
+    ]
+  },
+  "G6_bias_not_required": {
+    "pass": true,
+    "local_amplification_at_beta0": true,
+    "downstream_at_beta0": true,
+    "median_P_collapse_Rgt1": 0.886,
+    "median_H_T_Rgt1": 0.3274449191544763
+  },
+  "G7_bias_direction": {
+    "pass": true,
+    "median_signed_delta_PA_minus_PB": 0.23700000000000004,
+    "n_conditions": 2
+  }
+}

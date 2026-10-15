@@ -1,0 +1,2514 @@
+{
+  "status": "POST_HOC_DESCRIPTIVE_SENSITIVITY",
+  "primary_window_unchanged": 10,
+  "windows": [
+    10,
+    15,
+    20
+  ],
+  "source_sha256": {
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\joint_summary.json": "78e6124e9d022f93f00648206dd2ce1096f1425fbf0e35e98304ee2424d4b2b0",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed401\\paired_summary.json": "fcb578caeca5e68493f62fa9ec3e8179892de9ddabacce69223183a305bdaf0e",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed401\\arm_a_native_trajectory.jsonl": "e99b9739757257a613353385cce8b6d0dbd6466d02c8063ce2839d1eab854cb7",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed401\\arm_b_support_neutral_trajectory.jsonl": "a9fb8799f251da66783c6c424e1897d4161d74ffab5eb2a5552408c1e53c6c2d",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed402\\paired_summary.json": "7585c607576fe3b35b1140e1a2f082f056778f6ece20d2afe97036a59b64a704",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed402\\arm_a_native_trajectory.jsonl": "4119b250fa45d4dc15ce9cbaece541dff3a151099fb09d31b7236dc5de911230",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed402\\arm_b_support_neutral_trajectory.jsonl": "e92c54de437896d287dfbad91b307098b47317529c5122f691b58ae08120df26",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed403\\paired_summary.json": "440455c6a999fe2cf19d1d36be8c3ac7d2eaa0d6edfc7af40a23704bdf3e1a09",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed403\\arm_a_native_trajectory.jsonl": "fea51db7cbf6f5929bc5d31fa24a1c0c648bb42d418044124e74a1e51f0c6284",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed403\\arm_b_support_neutral_trajectory.jsonl": "679a839c811ea964dd2f2adcad2d98191141b9580f979e7aede529f94b54c591",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed404\\paired_summary.json": "c63a55ab292c68c590556e1d6c7808a7903c4808ba108f347531d6c3470095be",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed404\\arm_a_native_trajectory.jsonl": "fa17f13a25c6fec71bdf271c6c40facc83cbe7781ad2433e4fa288b806882e3e",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed404\\arm_b_support_neutral_trajectory.jsonl": "b6196085161e93a1d3f23a24c18bf5d5567bfc11f51bcccbb481d99557052031",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed405\\paired_summary.json": "ca5ff0d1765ed85d81711eef8cb9638ecfc3ef4553bacec602343992894e362b",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed405\\arm_a_native_trajectory.jsonl": "2a7ae9341966e8a3b3b4585b71b71eaddc7d1cebfe50dd81012aab5444462c7d",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed405\\arm_b_support_neutral_trajectory.jsonl": "b8342220b7600fe3983e1e3f10c62d7b6e62a985d2fcb2da6c4709b5e84a16a6",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed406\\paired_summary.json": "ab691958c6bddf87bb63a1c82a366d96fc8f817ce38a7e8f7fd0535459ecdf40",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed406\\arm_a_native_trajectory.jsonl": "4028021e0a151084a1222c1a668f1d3517f8d91b55dc0657f7ad2f8a48df56f5",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed406\\arm_b_support_neutral_trajectory.jsonl": "034e9ef7148b80c8e2ef49d9f5c3720962051b17e5a49ef27bef641a3d57f6f2",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed407\\paired_summary.json": "8c88e4312aeb149667ad83a29348bbea7d0ad0ff4b6c479428ca0714a0f46602",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed407\\arm_a_native_trajectory.jsonl": "858b9d9238a7a6e18f73d3b100112dd6b994fdf9ad54f1f2cc581d63b25645b2",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed407\\arm_b_support_neutral_trajectory.jsonl": "16415bc2946ba06ba492848ddfe1368f92c4e6fd8469596c978b075aeafea475",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed408\\paired_summary.json": "2c3e1004481fdaa3ea2c88dbe54990648c889f2428a366177df24da584b79016",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed408\\arm_a_native_trajectory.jsonl": "e2a8a7ee81a785ca78b4535d066b992cd4cb0f3459e06256cb5ebe2aadb2b2d7",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed408\\arm_b_support_neutral_trajectory.jsonl": "63595dbaba5e671f25969b800c9423cb4fcc930995b3e35ffab7ac4fcfd1069a",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed409\\paired_summary.json": "a8e97123ac5b3e7965ac75d69441f17cb4f0db9b56f2229dd5f83e1a75f0895a",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed409\\arm_a_native_trajectory.jsonl": "e60cbf08aecf8f735275073cdc53cb0283a8ad26979a0aa9fadfbed073be3c55",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed409\\arm_b_support_neutral_trajectory.jsonl": "f7b0fd8076b3e9879edb9dd7db30dea2d5f15a9ddad69e3f25862365af1f25be",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed410\\paired_summary.json": "725e82161afb97bffd38743b57e5ab1eb8c9376a1f3167f5fee3e9c8297b9608",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed410\\arm_a_native_trajectory.jsonl": "92ce3372c699eed11e1e75240d6c729eb91b2254ea314db3a96533d4f26ebef5",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed410\\arm_b_support_neutral_trajectory.jsonl": "04fcdfeb40595de24ae506fc39cd5efb3febe603182b35f09a76d810c397bb43"
+  },
+  "auditable_records": 186,
+  "uncovered_totals": {
+    "10": 153,
+    "15": 128,
+    "20": 102
+  },
+  "original_153_remaining_uncovered": {
+    "10": 153,
+    "15": 128,
+    "20": 102
+  },
+  "original_153_absence_rounds_min_median_max": [
+    10,
+    21.0,
+    33
+  ],
+  "common_postfork_only_seeds": [
+    401,
+    402,
+    405,
+    406,
+    407,
+    408,
+    410
+  ],
+  "common_postfork_only_totals": {
+    "10": 118,
+    "15": 111,
+    "20": 98
+  },
+  "limitations": [
+    "Candidate-by-run records are dependent and may share neighbourhoods.",
+    "Absence means no nearby viable output, not no allocation or permanent deletion.",
+    "Widening windows includes older observations; any decline is not a recovery event.",
+    "Shared-prefix flags identify windows including iteration <=10; original counts remain reported without exclusions."
+  ],
+  "per_seed": [
+    {
+      "seed": 401,
+      "checkpoint": 39,
+      "auditable_records": 14,
+      "uncovered": {
+        "10": 14,
+        "15": 12,
+        "20": 12
+      },
+      "window_includes_shared_prefix": {
+        "10": false,
+        "15": false,
+        "20": false
+      },
+      "original_lost_duration_min_median_max": [
+        11,
+        28.5,
+        33
+      ]
+    },
+    {
+      "seed": 402,
+      "checkpoint": 34,
+      "auditable_records": 9,
+      "uncovered": {
+        "10": 9,
+        "15": 8,
+        "20": 7
+      },
+      "window_includes_shared_prefix": {
+        "10": false,
+        "15": false,
+        "20": false
+      },
+      "original_lost_duration_min_median_max": [
+        12,
+        24.0,
+        27
+      ]
+    },
+    {
+      "seed": 403,
+      "checkpoint": 19,
+      "auditable_records": 21,
+      "uncovered": {
+        "10": 5,
+        "15": 0,
+        "20": 0
+      },
+      "window_includes_shared_prefix": {
+        "10": true,
+        "15": true,
+        "20": true
+      },
+      "original_lost_duration_min_median_max": [
+        10,
+        12.0,
+        13
+      ]
+    },
+    {
+      "seed": 404,
+      "checkpoint": 20,
+      "auditable_records": 22,
+      "uncovered": {
+        "10": 9,
+        "15": 0,
+        "20": 0
+      },
+      "window_includes_shared_prefix": {
+        "10": false,
+        "15": true,
+        "20": true
+      },
+      "original_lost_duration_min_median_max": [
+        10,
+        10.0,
+        11
+      ]
+    },
+    {
+      "seed": 405,
+      "checkpoint": 35,
+      "auditable_records": 13,
+      "uncovered": {
+        "10": 13,
+        "15": 13,
+        "20": 11
+      },
+      "window_includes_shared_prefix": {
+        "10": false,
+        "15": false,
+        "20": false
+      },
+      "original_lost_duration_min_median_max": [
+        15,
+        25.0,
+        27
+      ]
+    },
+    {
+      "seed": 406,
+      "checkpoint": 32,
+      "auditable_records": 24,
+      "uncovered": {
+        "10": 23,
+        "15": 22,
+        "20": 16
+      },
+      "window_includes_shared_prefix": {
+        "10": false,
+        "15": false,
+        "20": false
+      },
+      "original_lost_duration_min_median_max": [
+        11,
+        20.0,
+        24
+      ]
+    },
+    {
+      "seed": 407,
+      "checkpoint": 35,
+      "auditable_records": 19,
+      "uncovered": {
+        "10": 17,
+        "15": 16,
+        "20": 14
+      },
+      "window_includes_shared_prefix": {
+        "10": false,
+        "15": false,
+        "20": false
+      },
+      "original_lost_duration_min_median_max": [
+        13,
+        25.0,
+        30
+      ]
+    },
+    {
+      "seed": 408,
+      "checkpoint": 31,
+      "auditable_records": 20,
+      "uncovered": {
+        "10": 20,
+        "15": 18,
+        "20": 16
+      },
+      "window_includes_shared_prefix": {
+        "10": false,
+        "15": false,
+        "20": false
+      },
+      "original_lost_duration_min_median_max": [
+        13,
+        21.0,
+        28
+      ]
+    },
+    {
+      "seed": 409,
+      "checkpoint": 28,
+      "auditable_records": 22,
+      "uncovered": {
+        "10": 21,
+        "15": 17,
+        "20": 4
+      },
+      "window_includes_shared_prefix": {
+        "10": false,
+        "15": false,
+        "20": true
+      },
+      "original_lost_duration_min_median_max": [
+        10,
+        18.0,
+        21
+      ]
+    },
+    {
+      "seed": 410,
+      "checkpoint": 38,
+      "auditable_records": 22,
+      "uncovered": {
+        "10": 22,
+        "15": 22,
+        "20": 22
+      },
+      "window_includes_shared_prefix": {
+        "10": false,
+        "15": false,
+        "20": false
+      },
+      "original_lost_duration_min_median_max": [
+        21,
+        28.0,
+        30
+      ]
+    }
+  ],
+  "records": [
+    {
+      "seed": 401,
+      "candidate_id": 2510,
+      "checkpoint": 39,
+      "last_viable_nearby_round": 28,
+      "consecutive_absent_rounds": 11,
+      "uncovered": {
+        "10": true,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 401,
+      "candidate_id": 2564,
+      "checkpoint": 39,
+      "last_viable_nearby_round": 6,
+      "consecutive_absent_rounds": 33,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 401,
+      "candidate_id": 2719,
+      "checkpoint": 39,
+      "last_viable_nearby_round": 11,
+      "consecutive_absent_rounds": 28,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 401,
+      "candidate_id": 2765,
+      "checkpoint": 39,
+      "last_viable_nearby_round": 8,
+      "consecutive_absent_rounds": 31,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 401,
+      "candidate_id": 2816,
+      "checkpoint": 39,
+      "last_viable_nearby_round": 14,
+      "consecutive_absent_rounds": 25,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 401,
+      "candidate_id": 2817,
+      "checkpoint": 39,
+      "last_viable_nearby_round": 25,
+      "consecutive_absent_rounds": 14,
+      "uncovered": {
+        "10": true,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 401,
+      "candidate_id": 2842,
+      "checkpoint": 39,
+      "last_viable_nearby_round": 9,
+      "consecutive_absent_rounds": 30,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 401,
+      "candidate_id": 2900,
+      "checkpoint": 39,
+      "last_viable_nearby_round": 19,
+      "consecutive_absent_rounds": 20,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 401,
+      "candidate_id": 2925,
+      "checkpoint": 39,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 29,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 401,
+      "candidate_id": 2930,
+      "checkpoint": 39,
+      "last_viable_nearby_round": 19,
+      "consecutive_absent_rounds": 20,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 401,
+      "candidate_id": 2946,
+      "checkpoint": 39,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 29,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 401,
+      "candidate_id": 2949,
+      "checkpoint": 39,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 29,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 401,
+      "candidate_id": 2956,
+      "checkpoint": 39,
+      "last_viable_nearby_round": 14,
+      "consecutive_absent_rounds": 25,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 401,
+      "candidate_id": 2982,
+      "checkpoint": 39,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 29,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 402,
+      "candidate_id": 2609,
+      "checkpoint": 34,
+      "last_viable_nearby_round": 14,
+      "consecutive_absent_rounds": 20,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 402,
+      "candidate_id": 2696,
+      "checkpoint": 34,
+      "last_viable_nearby_round": 7,
+      "consecutive_absent_rounds": 27,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 402,
+      "candidate_id": 2712,
+      "checkpoint": 34,
+      "last_viable_nearby_round": 22,
+      "consecutive_absent_rounds": 12,
+      "uncovered": {
+        "10": true,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 402,
+      "candidate_id": 2813,
+      "checkpoint": 34,
+      "last_viable_nearby_round": 9,
+      "consecutive_absent_rounds": 25,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 402,
+      "candidate_id": 2851,
+      "checkpoint": 34,
+      "last_viable_nearby_round": 13,
+      "consecutive_absent_rounds": 21,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 402,
+      "candidate_id": 2901,
+      "checkpoint": 34,
+      "last_viable_nearby_round": 18,
+      "consecutive_absent_rounds": 16,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": false
+      }
+    },
+    {
+      "seed": 402,
+      "candidate_id": 2915,
+      "checkpoint": 34,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 24,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 402,
+      "candidate_id": 2916,
+      "checkpoint": 34,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 24,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 402,
+      "candidate_id": 2966,
+      "checkpoint": 34,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 24,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 403,
+      "candidate_id": 2222,
+      "checkpoint": 19,
+      "last_viable_nearby_round": 15,
+      "consecutive_absent_rounds": 4,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 403,
+      "candidate_id": 2501,
+      "checkpoint": 19,
+      "last_viable_nearby_round": 6,
+      "consecutive_absent_rounds": 13,
+      "uncovered": {
+        "10": true,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 403,
+      "candidate_id": 2504,
+      "checkpoint": 19,
+      "last_viable_nearby_round": 12,
+      "consecutive_absent_rounds": 7,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 403,
+      "candidate_id": 2526,
+      "checkpoint": 19,
+      "last_viable_nearby_round": 6,
+      "consecutive_absent_rounds": 13,
+      "uncovered": {
+        "10": true,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 403,
+      "candidate_id": 2646,
+      "checkpoint": 19,
+      "last_viable_nearby_round": 15,
+      "consecutive_absent_rounds": 4,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 403,
+      "candidate_id": 2664,
+      "checkpoint": 19,
+      "last_viable_nearby_round": 7,
+      "consecutive_absent_rounds": 12,
+      "uncovered": {
+        "10": true,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 403,
+      "candidate_id": 2712,
+      "checkpoint": 19,
+      "last_viable_nearby_round": 16,
+      "consecutive_absent_rounds": 3,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 403,
+      "candidate_id": 2742,
+      "checkpoint": 19,
+      "last_viable_nearby_round": 11,
+      "consecutive_absent_rounds": 8,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 403,
+      "candidate_id": 2821,
+      "checkpoint": 19,
+      "last_viable_nearby_round": 9,
+      "consecutive_absent_rounds": 10,
+      "uncovered": {
+        "10": true,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 403,
+      "candidate_id": 2836,
+      "checkpoint": 19,
+      "last_viable_nearby_round": 12,
+      "consecutive_absent_rounds": 7,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 403,
+      "candidate_id": 2838,
+      "checkpoint": 19,
+      "last_viable_nearby_round": 15,
+      "consecutive_absent_rounds": 4,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 403,
+      "candidate_id": 2853,
+      "checkpoint": 19,
+      "last_viable_nearby_round": 18,
+      "consecutive_absent_rounds": 1,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 403,
+      "candidate_id": 2875,
+      "checkpoint": 19,
+      "last_viable_nearby_round": 9,
+      "consecutive_absent_rounds": 10,
+      "uncovered": {
+        "10": true,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 403,
+      "candidate_id": 2900,
+      "checkpoint": 19,
+      "last_viable_nearby_round": 15,
+      "consecutive_absent_rounds": 4,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 403,
+      "candidate_id": 2901,
+      "checkpoint": 19,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 9,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 403,
+      "candidate_id": 2903,
+      "checkpoint": 19,
+      "last_viable_nearby_round": 17,
+      "consecutive_absent_rounds": 2,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 403,
+      "candidate_id": 2920,
+      "checkpoint": 19,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 9,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 403,
+      "candidate_id": 2927,
+      "checkpoint": 19,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 9,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 403,
+      "candidate_id": 2961,
+      "checkpoint": 19,
+      "last_viable_nearby_round": 15,
+      "consecutive_absent_rounds": 4,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 403,
+      "candidate_id": 2964,
+      "checkpoint": 19,
+      "last_viable_nearby_round": 12,
+      "consecutive_absent_rounds": 7,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 403,
+      "candidate_id": 2965,
+      "checkpoint": 19,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 9,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2308,
+      "checkpoint": 20,
+      "last_viable_nearby_round": 12,
+      "consecutive_absent_rounds": 8,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2406,
+      "checkpoint": 20,
+      "last_viable_nearby_round": 14,
+      "consecutive_absent_rounds": 6,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2506,
+      "checkpoint": 20,
+      "last_viable_nearby_round": 13,
+      "consecutive_absent_rounds": 7,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2709,
+      "checkpoint": 20,
+      "last_viable_nearby_round": 19,
+      "consecutive_absent_rounds": 1,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2713,
+      "checkpoint": 20,
+      "last_viable_nearby_round": 15,
+      "consecutive_absent_rounds": 5,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2801,
+      "checkpoint": 20,
+      "last_viable_nearby_round": 9,
+      "consecutive_absent_rounds": 11,
+      "uncovered": {
+        "10": true,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2810,
+      "checkpoint": 20,
+      "last_viable_nearby_round": 12,
+      "consecutive_absent_rounds": 8,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2817,
+      "checkpoint": 20,
+      "last_viable_nearby_round": 13,
+      "consecutive_absent_rounds": 7,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2821,
+      "checkpoint": 20,
+      "last_viable_nearby_round": 13,
+      "consecutive_absent_rounds": 7,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2822,
+      "checkpoint": 20,
+      "last_viable_nearby_round": 9,
+      "consecutive_absent_rounds": 11,
+      "uncovered": {
+        "10": true,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2823,
+      "checkpoint": 20,
+      "last_viable_nearby_round": 11,
+      "consecutive_absent_rounds": 9,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2825,
+      "checkpoint": 20,
+      "last_viable_nearby_round": 9,
+      "consecutive_absent_rounds": 11,
+      "uncovered": {
+        "10": true,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2918,
+      "checkpoint": 20,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 10,
+      "uncovered": {
+        "10": true,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2922,
+      "checkpoint": 20,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 10,
+      "uncovered": {
+        "10": true,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2924,
+      "checkpoint": 20,
+      "last_viable_nearby_round": 14,
+      "consecutive_absent_rounds": 6,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2926,
+      "checkpoint": 20,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 10,
+      "uncovered": {
+        "10": true,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2942,
+      "checkpoint": 20,
+      "last_viable_nearby_round": 12,
+      "consecutive_absent_rounds": 8,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2943,
+      "checkpoint": 20,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 10,
+      "uncovered": {
+        "10": true,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2962,
+      "checkpoint": 20,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 10,
+      "uncovered": {
+        "10": true,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2963,
+      "checkpoint": 20,
+      "last_viable_nearby_round": 18,
+      "consecutive_absent_rounds": 2,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2973,
+      "checkpoint": 20,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 10,
+      "uncovered": {
+        "10": true,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2990,
+      "checkpoint": 20,
+      "last_viable_nearby_round": 13,
+      "consecutive_absent_rounds": 7,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 405,
+      "candidate_id": 2620,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 17,
+      "consecutive_absent_rounds": 18,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": false
+      }
+    },
+    {
+      "seed": 405,
+      "candidate_id": 2678,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 13,
+      "consecutive_absent_rounds": 22,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 405,
+      "candidate_id": 2748,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 8,
+      "consecutive_absent_rounds": 27,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 405,
+      "candidate_id": 2800,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 20,
+      "consecutive_absent_rounds": 15,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": false
+      }
+    },
+    {
+      "seed": 405,
+      "candidate_id": 2806,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 9,
+      "consecutive_absent_rounds": 26,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 405,
+      "candidate_id": 2812,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 9,
+      "consecutive_absent_rounds": 26,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 405,
+      "candidate_id": 2877,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 14,
+      "consecutive_absent_rounds": 21,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 405,
+      "candidate_id": 2913,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 25,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 405,
+      "candidate_id": 2914,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 25,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 405,
+      "candidate_id": 2918,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 25,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 405,
+      "candidate_id": 2933,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 25,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 405,
+      "candidate_id": 2935,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 25,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 405,
+      "candidate_id": 2942,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 25,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2401,
+      "checkpoint": 32,
+      "last_viable_nearby_round": 16,
+      "consecutive_absent_rounds": 16,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": false
+      }
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2526,
+      "checkpoint": 32,
+      "last_viable_nearby_round": 17,
+      "consecutive_absent_rounds": 15,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": false
+      }
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2627,
+      "checkpoint": 32,
+      "last_viable_nearby_round": 12,
+      "consecutive_absent_rounds": 20,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2707,
+      "checkpoint": 32,
+      "last_viable_nearby_round": 11,
+      "consecutive_absent_rounds": 21,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2709,
+      "checkpoint": 32,
+      "last_viable_nearby_round": 21,
+      "consecutive_absent_rounds": 11,
+      "uncovered": {
+        "10": true,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2722,
+      "checkpoint": 32,
+      "last_viable_nearby_round": 12,
+      "consecutive_absent_rounds": 20,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2769,
+      "checkpoint": 32,
+      "last_viable_nearby_round": 8,
+      "consecutive_absent_rounds": 24,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2773,
+      "checkpoint": 32,
+      "last_viable_nearby_round": 15,
+      "consecutive_absent_rounds": 17,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": false
+      }
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2808,
+      "checkpoint": 32,
+      "last_viable_nearby_round": 9,
+      "consecutive_absent_rounds": 23,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2822,
+      "checkpoint": 32,
+      "last_viable_nearby_round": 12,
+      "consecutive_absent_rounds": 20,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2829,
+      "checkpoint": 32,
+      "last_viable_nearby_round": 9,
+      "consecutive_absent_rounds": 23,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2904,
+      "checkpoint": 32,
+      "last_viable_nearby_round": 15,
+      "consecutive_absent_rounds": 17,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": false
+      }
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2907,
+      "checkpoint": 32,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 22,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2914,
+      "checkpoint": 32,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 22,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2927,
+      "checkpoint": 32,
+      "last_viable_nearby_round": 23,
+      "consecutive_absent_rounds": 9,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2929,
+      "checkpoint": 32,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 22,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2930,
+      "checkpoint": 32,
+      "last_viable_nearby_round": 12,
+      "consecutive_absent_rounds": 20,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2931,
+      "checkpoint": 32,
+      "last_viable_nearby_round": 12,
+      "consecutive_absent_rounds": 20,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2932,
+      "checkpoint": 32,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 22,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2934,
+      "checkpoint": 32,
+      "last_viable_nearby_round": 11,
+      "consecutive_absent_rounds": 21,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2935,
+      "checkpoint": 32,
+      "last_viable_nearby_round": 11,
+      "consecutive_absent_rounds": 21,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2941,
+      "checkpoint": 32,
+      "last_viable_nearby_round": 17,
+      "consecutive_absent_rounds": 15,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": false
+      }
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2943,
+      "checkpoint": 32,
+      "last_viable_nearby_round": 17,
+      "consecutive_absent_rounds": 15,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": false
+      }
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2950,
+      "checkpoint": 32,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 22,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2491,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 5,
+      "consecutive_absent_rounds": 30,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2607,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 26,
+      "consecutive_absent_rounds": 9,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2702,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 28,
+      "consecutive_absent_rounds": 7,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2706,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 8,
+      "consecutive_absent_rounds": 27,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2714,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 13,
+      "consecutive_absent_rounds": 22,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2715,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 8,
+      "consecutive_absent_rounds": 27,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2741,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 8,
+      "consecutive_absent_rounds": 27,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2785,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 8,
+      "consecutive_absent_rounds": 27,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2817,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 16,
+      "consecutive_absent_rounds": 19,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": false
+      }
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2818,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 9,
+      "consecutive_absent_rounds": 26,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2840,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 22,
+      "consecutive_absent_rounds": 13,
+      "uncovered": {
+        "10": true,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2902,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 11,
+      "consecutive_absent_rounds": 24,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2919,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 25,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2925,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 25,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2931,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 14,
+      "consecutive_absent_rounds": 21,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2945,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 25,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2961,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 17,
+      "consecutive_absent_rounds": 18,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": false
+      }
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2963,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 15,
+      "consecutive_absent_rounds": 20,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2965,
+      "checkpoint": 35,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 25,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2208,
+      "checkpoint": 31,
+      "last_viable_nearby_round": 3,
+      "consecutive_absent_rounds": 28,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2500,
+      "checkpoint": 31,
+      "last_viable_nearby_round": 17,
+      "consecutive_absent_rounds": 14,
+      "uncovered": {
+        "10": true,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2700,
+      "checkpoint": 31,
+      "last_viable_nearby_round": 13,
+      "consecutive_absent_rounds": 18,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": false
+      }
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2803,
+      "checkpoint": 31,
+      "last_viable_nearby_round": 18,
+      "consecutive_absent_rounds": 13,
+      "uncovered": {
+        "10": true,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2807,
+      "checkpoint": 31,
+      "last_viable_nearby_round": 9,
+      "consecutive_absent_rounds": 22,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2808,
+      "checkpoint": 31,
+      "last_viable_nearby_round": 9,
+      "consecutive_absent_rounds": 22,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2820,
+      "checkpoint": 31,
+      "last_viable_nearby_round": 9,
+      "consecutive_absent_rounds": 22,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2826,
+      "checkpoint": 31,
+      "last_viable_nearby_round": 9,
+      "consecutive_absent_rounds": 22,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2834,
+      "checkpoint": 31,
+      "last_viable_nearby_round": 9,
+      "consecutive_absent_rounds": 22,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2837,
+      "checkpoint": 31,
+      "last_viable_nearby_round": 9,
+      "consecutive_absent_rounds": 22,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2858,
+      "checkpoint": 31,
+      "last_viable_nearby_round": 9,
+      "consecutive_absent_rounds": 22,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2893,
+      "checkpoint": 31,
+      "last_viable_nearby_round": 9,
+      "consecutive_absent_rounds": 22,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2902,
+      "checkpoint": 31,
+      "last_viable_nearby_round": 15,
+      "consecutive_absent_rounds": 16,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": false
+      }
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2908,
+      "checkpoint": 31,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 21,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2913,
+      "checkpoint": 31,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 21,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2914,
+      "checkpoint": 31,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 21,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2922,
+      "checkpoint": 31,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 21,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2925,
+      "checkpoint": 31,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 21,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2949,
+      "checkpoint": 31,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 21,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2977,
+      "checkpoint": 31,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 21,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2574,
+      "checkpoint": 28,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 18,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": false
+      }
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2581,
+      "checkpoint": 28,
+      "last_viable_nearby_round": 14,
+      "consecutive_absent_rounds": 14,
+      "uncovered": {
+        "10": true,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2614,
+      "checkpoint": 28,
+      "last_viable_nearby_round": 13,
+      "consecutive_absent_rounds": 15,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": false
+      }
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2633,
+      "checkpoint": 28,
+      "last_viable_nearby_round": 7,
+      "consecutive_absent_rounds": 21,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2644,
+      "checkpoint": 28,
+      "last_viable_nearby_round": 7,
+      "consecutive_absent_rounds": 21,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2664,
+      "checkpoint": 28,
+      "last_viable_nearby_round": 7,
+      "consecutive_absent_rounds": 21,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2705,
+      "checkpoint": 28,
+      "last_viable_nearby_round": 13,
+      "consecutive_absent_rounds": 15,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": false
+      }
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2711,
+      "checkpoint": 28,
+      "last_viable_nearby_round": 12,
+      "consecutive_absent_rounds": 16,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": false
+      }
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2713,
+      "checkpoint": 28,
+      "last_viable_nearby_round": 8,
+      "consecutive_absent_rounds": 20,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2814,
+      "checkpoint": 28,
+      "last_viable_nearby_round": 9,
+      "consecutive_absent_rounds": 19,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": false
+      }
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2911,
+      "checkpoint": 28,
+      "last_viable_nearby_round": 14,
+      "consecutive_absent_rounds": 14,
+      "uncovered": {
+        "10": true,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2913,
+      "checkpoint": 28,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 18,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": false
+      }
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2918,
+      "checkpoint": 28,
+      "last_viable_nearby_round": 20,
+      "consecutive_absent_rounds": 8,
+      "uncovered": {
+        "10": false,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2926,
+      "checkpoint": 28,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 18,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": false
+      }
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2929,
+      "checkpoint": 28,
+      "last_viable_nearby_round": 18,
+      "consecutive_absent_rounds": 10,
+      "uncovered": {
+        "10": true,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2930,
+      "checkpoint": 28,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 18,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": false
+      }
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2936,
+      "checkpoint": 28,
+      "last_viable_nearby_round": 15,
+      "consecutive_absent_rounds": 13,
+      "uncovered": {
+        "10": true,
+        "15": false,
+        "20": false
+      }
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2940,
+      "checkpoint": 28,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 18,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": false
+      }
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2959,
+      "checkpoint": 28,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 18,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": false
+      }
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2961,
+      "checkpoint": 28,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 18,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": false
+      }
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2971,
+      "checkpoint": 28,
+      "last_viable_nearby_round": 13,
+      "consecutive_absent_rounds": 15,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": false
+      }
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2980,
+      "checkpoint": 28,
+      "last_viable_nearby_round": 12,
+      "consecutive_absent_rounds": 16,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": false
+      }
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2403,
+      "checkpoint": 38,
+      "last_viable_nearby_round": 11,
+      "consecutive_absent_rounds": 27,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2622,
+      "checkpoint": 38,
+      "last_viable_nearby_round": 11,
+      "consecutive_absent_rounds": 27,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2701,
+      "checkpoint": 38,
+      "last_viable_nearby_round": 12,
+      "consecutive_absent_rounds": 26,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2713,
+      "checkpoint": 38,
+      "last_viable_nearby_round": 17,
+      "consecutive_absent_rounds": 21,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2724,
+      "checkpoint": 38,
+      "last_viable_nearby_round": 8,
+      "consecutive_absent_rounds": 30,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2725,
+      "checkpoint": 38,
+      "last_viable_nearby_round": 8,
+      "consecutive_absent_rounds": 30,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2768,
+      "checkpoint": 38,
+      "last_viable_nearby_round": 8,
+      "consecutive_absent_rounds": 30,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2811,
+      "checkpoint": 38,
+      "last_viable_nearby_round": 9,
+      "consecutive_absent_rounds": 29,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2815,
+      "checkpoint": 38,
+      "last_viable_nearby_round": 12,
+      "consecutive_absent_rounds": 26,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2820,
+      "checkpoint": 38,
+      "last_viable_nearby_round": 9,
+      "consecutive_absent_rounds": 29,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2842,
+      "checkpoint": 38,
+      "last_viable_nearby_round": 9,
+      "consecutive_absent_rounds": 29,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2846,
+      "checkpoint": 38,
+      "last_viable_nearby_round": 9,
+      "consecutive_absent_rounds": 29,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2848,
+      "checkpoint": 38,
+      "last_viable_nearby_round": 9,
+      "consecutive_absent_rounds": 29,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2850,
+      "checkpoint": 38,
+      "last_viable_nearby_round": 13,
+      "consecutive_absent_rounds": 25,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2902,
+      "checkpoint": 38,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 28,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2915,
+      "checkpoint": 38,
+      "last_viable_nearby_round": 15,
+      "consecutive_absent_rounds": 23,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2918,
+      "checkpoint": 38,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 28,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2919,
+      "checkpoint": 38,
+      "last_viable_nearby_round": 12,
+      "consecutive_absent_rounds": 26,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2964,
+      "checkpoint": 38,
+      "last_viable_nearby_round": 13,
+      "consecutive_absent_rounds": 25,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2969,
+      "checkpoint": 38,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 28,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2976,
+      "checkpoint": 38,
+      "last_viable_nearby_round": 13,
+      "consecutive_absent_rounds": 25,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2987,
+      "checkpoint": 38,
+      "last_viable_nearby_round": 10,
+      "consecutive_absent_rounds": 28,
+      "uncovered": {
+        "10": true,
+        "15": true,
+        "20": true
+      }
+    }
+  ]
+}

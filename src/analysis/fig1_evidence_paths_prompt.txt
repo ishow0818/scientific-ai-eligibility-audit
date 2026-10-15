@@ -1,0 +1,12 @@
+Tool: built-in image_gen; edit of fig1.png. Original retained unchanged.
+Output: fig1_evidence_paths.png
+
+Edit the supplied existing scientific figure into a precise, clean Chinese journal concept figure. Input image is edit target. Retain its accessible astronomy illustration premise (star brightness dips consistent with two explanations) but completely replace poster layout with white background, restrained navy/blue and orange, flat scientific icons, generous whitespace, large perfectly legible Chinese typography. Remove robot, monitor, giant slogan, checkmarks implying truth, photoreal decorations, and numerical graph axes. Wide landscape high-resolution figure.
+Top title: “只剩一个候选，不等于证据只允许一个解释”
+Small subtitle: “概念示意，非本文天文实验结果”
+Left shared starting panel: label “同一组初始观测”, small schematic brightness curve with periodic dips, label “恒星周期性变暗”. Below two equal candidate cards with simple illustrations “A 行星遮挡” and “B 食双星”. Caption “初始数据尚不能区分 A 与 B”.
+Branch into two horizontally flowing rows with clear arrows and aligned endpoints.
+Upper blue row heading “路径一：证据排除”. Middle box “新观测达到排除 B 的标准”. End two distinct stacked status boxes labelled “算法仍考虑：A” and “数据仍允许：A”.
+Lower orange row heading “路径二：算法提前放弃”. Middle compact three-node feedback loop with arrows: “当前偏好” → “测量与搜索安排” → “候选更新” → back to “当前偏好”. Small note under loop “一种可能的递归路径”. Then arrow with label “B 退出候选过程”. End two separate status boxes labelled “算法仍考虑：A” and “数据仍允许：A、B”. Orange outline highlight mismatch, label “FI：退出时，证据尚未排除 B”.
+Avoid implying no new data in lower path. Avoid implying all FI requires recursion or final singleton. Bottom small single sentence: “图中以两个候选示意；FI 不要求最终只剩一个候选。”
+No other text. Make endpoints and their mismatch the visual focus, not decorative astronomy. Exact clean text, no overlaps.

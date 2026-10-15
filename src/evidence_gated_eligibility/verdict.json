@@ -1,0 +1,43 @@
+{
+  "stage": 0,
+  "project": "Evidence-Gated Eligibility Intervention",
+  "verdict": "READY_TO_IMPLEMENT",
+  "date": "2026-10-12",
+  "pilot_fi_anchor_modified": false,
+  "paper_modified": false,
+  "smoke_or_formal_run": false,
+  "chi2_status": "OPERATIONAL_ONLY",
+  "arms": {
+    "A_native": "Unchanged Arm native path; reproduction vs run_seed(do_perturb=False)",
+    "B_decision_only": "Offline final decision on A log; eligible=not excluded; argmax w_all; no re-loop",
+    "C_full_evidence_gate": "External arm wrapper; eligible=not excluded for allocate+incumbent; shadow weight prune only; HARD_ABORT on empty eligible"
+  },
+  "isolation": {
+    "feasible": true,
+    "requires_pilot_source_edit": false,
+    "w_override_sufficient_for_C": false,
+    "reason": "C must change eligibility set (alive→not excluded); w_override only changes proposer weights within alive"
+  },
+  "hard_stops_no_rescue": [
+    "ABORT_EMPTY_ELIGIBLE",
+    "ABORT_ZERO_WEIGHT_MASS",
+    "DECISION_EMPTY"
+  ],
+  "eval_grid": "400 midpoints between linspace(0,10,401); off measurable idx pool",
+  "formal_seeds_reserved": [201, 240],
+  "formal_seeds_inclusive": "201-240",
+  "main_confounder": "Arm C changes the measurement trajectory (not a pure label relabel); Arm B isolates final-decision-only effect. χ² mis-exclusion of truth is an operational failure mode, not an oracle.",
+  "answers": {
+    "three_arms_clean": true,
+    "must_change_original_algorithm": false,
+    "next_step_implement_and_smoke": true,
+    "blocked_issues": []
+  },
+  "artifacts": [
+    "STAGE0_AUDIT.md",
+    "POLICY_SPEC.md",
+    "EVALUATION_PROTOCOL.md",
+    "IMPLEMENTATION_PLAN.md",
+    "verdict.json"
+  ]
+}

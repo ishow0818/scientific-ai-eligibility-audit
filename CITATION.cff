@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software or the associated reproducibility materials, please cite the associated manuscript."
+title: "Reproducibility materials for Algorithmic Elimination and Evidential Exclusion in Scientific AI"
+type: software
+authors:
+  - family-names: "Zhang"
+    given-names: "Zhipeng"
+    affiliation: "China Mobile Research Institute; China Mobile GBA (Greater Bay Area) Innovation Institute"
+  - family-names: "Li"
+    given-names: "Kai"
+    affiliation: "China Mobile Research Institute"
+  - family-names: "Ma"
+    given-names: "Wenting"
+    affiliation: "China Mobile Research Institute"
+  - family-names: "Guo"
+    given-names: "Meng"
+    affiliation: "China Mobile Research Institute"
+  - family-names: "Yang"
+    given-names: "Lei"
+    affiliation: "China Mobile Research Institute"
+license: MIT

@@ -1,0 +1,384 @@
+{
+  "status": "PASS",
+  "primary_200_exclusion_times": {
+    "n_match": 200,
+    "n_checked": 200,
+    "pass": true,
+    "mismatches": [],
+    "method": "stored violated flags + persist=2"
+  },
+  "table_rows_matched": 18,
+  "table_rows_total": 18,
+  "comparisons": [
+    {
+      "setting": [
+        0.025,
+        1,
+        "native"
+      ],
+      "expected": [
+        27,
+        16,
+        27
+      ],
+      "got": [
+        27,
+        16,
+        27
+      ],
+      "frozen_denom": 78,
+      "match": true
+    },
+    {
+      "setting": [
+        0.025,
+        1,
+        "neutral"
+      ],
+      "expected": [
+        78,
+        20,
+        78
+      ],
+      "got": [
+        78,
+        20,
+        78
+      ],
+      "frozen_denom": 80,
+      "match": true
+    },
+    {
+      "setting": [
+        0.025,
+        2,
+        "native"
+      ],
+      "expected": [
+        78,
+        20,
+        27
+      ],
+      "got": [
+        78,
+        20,
+        27
+      ],
+      "frozen_denom": 78,
+      "match": true
+    },
+    {
+      "setting": [
+        0.025,
+        2,
+        "neutral"
+      ],
+      "expected": [
+        80,
+        20,
+        78
+      ],
+      "got": [
+        80,
+        20,
+        78
+      ],
+      "frozen_denom": 80,
+      "match": true
+    },
+    {
+      "setting": [
+        0.025,
+        3,
+        "native"
+      ],
+      "expected": [
+        78,
+        20,
+        27
+      ],
+      "got": [
+        78,
+        20,
+        27
+      ],
+      "frozen_denom": 78,
+      "match": true
+    },
+    {
+      "setting": [
+        0.025,
+        3,
+        "neutral"
+      ],
+      "expected": [
+        80,
+        20,
+        78
+      ],
+      "got": [
+        80,
+        20,
+        78
+      ],
+      "frozen_denom": 80,
+      "match": true
+    },
+    {
+      "setting": [
+        0.05,
+        1,
+        "native"
+      ],
+      "expected": [
+        26,
+        15,
+        26
+      ],
+      "got": [
+        26,
+        15,
+        26
+      ],
+      "frozen_denom": 78,
+      "match": true
+    },
+    {
+      "setting": [
+        0.05,
+        1,
+        "neutral"
+      ],
+      "expected": [
+        77,
+        20,
+        77
+      ],
+      "got": [
+        77,
+        20,
+        77
+      ],
+      "frozen_denom": 80,
+      "match": true
+    },
+    {
+      "setting": [
+        0.05,
+        2,
+        "native"
+      ],
+      "expected": [
+        78,
+        20,
+        26
+      ],
+      "got": [
+        78,
+        20,
+        26
+      ],
+      "frozen_denom": 78,
+      "match": true
+    },
+    {
+      "setting": [
+        0.05,
+        2,
+        "neutral"
+      ],
+      "expected": [
+        80,
+        20,
+        77
+      ],
+      "got": [
+        80,
+        20,
+        77
+      ],
+      "frozen_denom": 80,
+      "match": true
+    },
+    {
+      "setting": [
+        0.05,
+        3,
+        "native"
+      ],
+      "expected": [
+        78,
+        20,
+        26
+      ],
+      "got": [
+        78,
+        20,
+        26
+      ],
+      "frozen_denom": 78,
+      "match": true
+    },
+    {
+      "setting": [
+        0.05,
+        3,
+        "neutral"
+      ],
+      "expected": [
+        80,
+        20,
+        77
+      ],
+      "got": [
+        80,
+        20,
+        77
+      ],
+      "frozen_denom": 80,
+      "match": true
+    },
+    {
+      "setting": [
+        0.1,
+        1,
+        "native"
+      ],
+      "expected": [
+        26,
+        15,
+        26
+      ],
+      "got": [
+        26,
+        15,
+        26
+      ],
+      "frozen_denom": 78,
+      "match": true
+    },
+    {
+      "setting": [
+        0.1,
+        1,
+        "neutral"
+      ],
+      "expected": [
+        76,
+        20,
+        76
+      ],
+      "got": [
+        76,
+        20,
+        76
+      ],
+      "frozen_denom": 80,
+      "match": true
+    },
+    {
+      "setting": [
+        0.1,
+        2,
+        "native"
+      ],
+      "expected": [
+        78,
+        20,
+        26
+      ],
+      "got": [
+        78,
+        20,
+        26
+      ],
+      "frozen_denom": 78,
+      "match": true
+    },
+    {
+      "setting": [
+        0.1,
+        2,
+        "neutral"
+      ],
+      "expected": [
+        80,
+        20,
+        76
+      ],
+      "got": [
+        80,
+        20,
+        76
+      ],
+      "frozen_denom": 80,
+      "match": true
+    },
+    {
+      "setting": [
+        0.1,
+        3,
+        "native"
+      ],
+      "expected": [
+        78,
+        20,
+        26
+      ],
+      "got": [
+        78,
+        20,
+        26
+      ],
+      "frozen_denom": 78,
+      "match": true
+    },
+    {
+      "setting": [
+        0.1,
+        3,
+        "neutral"
+      ],
+      "expected": [
+        80,
+        20,
+        76
+      ],
+      "got": [
+        80,
+        20,
+        76
+      ],
+      "frozen_denom": 80,
+      "match": true
+    }
+  ],
+  "interpretation": "Supports qualitative robustness that eligibility loss can precede operational exclusion under neighboring operational choices; does NOT prove chi-square reference calibration or Type-I/FWER validity under adaptive nonlinear fitting.",
+  "input_hashes": {
+    "outputs/pilot_fi_anchor/seed_01.json": "88499007627b2e50a08aa55fd99f82ba447d3df6996145243f2a670ce259e666",
+    "outputs/pilot_fi_anchor/seed_02.json": "a1343f9f04ff6e1cc09de8e3e6bd3fdc21d1ec58af60a728c33cb3dc657e1798",
+    "outputs/pilot_fi_anchor/seed_03.json": "9f6bf0b1417fbeafe9999ccd381127412ddc0c5643bcb5d308cf80d0a0f972fa",
+    "outputs/pilot_fi_anchor/seed_04.json": "0d3a028b9beca15dfe3ed9743bf27b2432e5c6b35cc7a71c4ee462a7c599516b",
+    "outputs/pilot_fi_anchor/seed_05.json": "032b7ab75a9b9b9fa3045fba97e6fafa63e1c5b76b08d00e01aae26e4ba71787",
+    "outputs/pilot_fi_anchor/seed_06.json": "40ee314148e1f8e57c9acb83009598107bcd142aacdc11c759c0574648bbde95",
+    "outputs/pilot_fi_anchor/seed_07.json": "81fced1bb42ac722694184dce4e29605ddc05182007dc233ebdd0ef6e0fe9095",
+    "outputs/pilot_fi_anchor/seed_08.json": "b0e0e2723d5b722ab5b33659d3f3c542dabba650f213cd7144de6a620a78e59e",
+    "outputs/pilot_fi_anchor/seed_09.json": "50c3c90f26d258e99261eb7772555abfa5a359df6c183c89ba62b809d8742dfa",
+    "outputs/pilot_fi_anchor/seed_10.json": "e0870e32d38edb26a94aba8724339389ad1cc704feb10633715e9946e42da945",
+    "outputs/pilot_fi_anchor/seed_11.json": "a2f1dfe7914f3ce182cf8ea0df7d221a57c5638244fa1fb6b07d40e2624be794",
+    "outputs/pilot_fi_anchor/seed_12.json": "fb332f48f20b9bc0e936edeba4c5654bc1999469579024c38ca6dc0323c56648",
+    "outputs/pilot_fi_anchor/seed_13.json": "8ebe719133fc046dae5c7132400cf436b1d73e9b94480f506f35108a644a26a0",
+    "outputs/pilot_fi_anchor/seed_14.json": "a1416d50bae4917a88c197156abb59b86b3562fa3a97772e24577da87856d853",
+    "outputs/pilot_fi_anchor/seed_15.json": "0db4ced0945abe399dafeec440da346687e543798fd2e772d20b2fb54049b2be",
+    "outputs/pilot_fi_anchor/seed_16.json": "a33e57af5f1f66ecc80217eaf35a3bd59df34a01b8bf05e235d5194da96f5ebe",
+    "outputs/pilot_fi_anchor/seed_17.json": "06fc8aac0e009187c285ac2f1a759d01af6f490d8768df577b28a9b97f04fcac",
+    "outputs/pilot_fi_anchor/seed_18.json": "b93bf93766d3c127312906ded7f73863e51b85c0599a2f0c0fc2deed9241dac8",
+    "outputs/pilot_fi_anchor/seed_19.json": "5eb448c3cefbda6395ca406240f86bc592a54f1748aec137ae17940e82b5f517",
+    "outputs/pilot_fi_anchor/seed_20.json": "ec9d0693deea743c135fd248715a23e59f0c378f1115e0a5084c2ce86a705ab5"
+  },
+  "script_sha256": "dde00a8e747f5d2fdb56f8025a1198bc6a005b11336aa4b253e2dfdd80db88b1",
+  "outputs": {
+    "sensitivity_summary.csv": "patterns_windows_repro_audit_v2\\verification\\evidence_sensitivity\\sensitivity_summary.csv",
+    "sensitivity_events.csv": "patterns_windows_repro_audit_v2\\verification\\evidence_sensitivity\\sensitivity_events.csv"
+  }
+}

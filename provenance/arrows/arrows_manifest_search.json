@@ -1,0 +1,130 @@
+{
+  "status": "CONFIRMED",
+  "sha256_tokens_mentioned_in_summaries": [
+    "01be8d62633ec1594e1e38361abf36f8814519c39ee6f6ce9bd61892b5b3592b",
+    "0260832c3de9d253e3402331a1e427b4ae37dffd988770c615b76be72038208c",
+    "04b2a2964de05a95829750f402a182766fda70d59b4a2925067927402b175ca5",
+    "0564bac9162f124763f78d401d3f91fb2a3df92b9cacb557c2066581811e6275",
+    "0c6bf0e3989be9720bd0645ebd0ba0b51fedbe5c00a0f7956f414a9625223b58",
+    "0ecd5d1678247aa6ee643065bac4b334e28b1160902a48f81a1df6e37cca7aba",
+    "12c5492caa14495dbb38605ef58860f527385263d48b940fb4e755c6bd048c08",
+    "1fcbe45002d2851cadb6d56d99e5c2a34996844d6474d6002a15af9f3e77b461",
+    "2360fd9cef2e5424be33dd7c77edb0f9ed4d1dc02c920f8781742b9696ad13ac",
+    "3982ca92cc458d330b39d7b254e1f249b342a051bc7718d95027790c44a5c816",
+    "486f67c863b3d53a757e7ae34da03b7c12373d1d3c03d7509add41d4ab3653ee",
+    "49bf3f8f7fad5a7e9ee9d5fa5ff07841bd4aeb64023965e4ff6492c08af70b78",
+    "4a29cea3aa911fd2e9185e01a0860d22a5269dbcc4e18eeb62921a935e024bf2",
+    "50514f3b28121e550a727050d4a8f686f51229e0a6ff65160879ec0bd1cc89a7",
+    "5897644f58e2479ff1510dde89caaa3b2734b638af66cea8a9090269691d1ad3",
+    "61a9efa9e2adab31a453de80ed2a0457b53705b5c75807036c04e9bc0547f0e9",
+    "6500343f7afec0b16d5adda2acf43eb246e79e68e98e78ee24c0c08a7f5f3f6a",
+    "68a8e4272dc92dc98ecf2b83b99307be41926a380d7534ca986767230add0fae",
+    "6a2b2a2df8bd2aba0432a107e36e32767a9895fa366f588de1efdc73f33957ca",
+    "6c002a4588317ed03bc3c8a170956ebaf9db5ca9dd658c1a730ab4326fbcee6d",
+    "75774e2e7314027024b895a4a7f955a11ec35ebaf1e4dba9a0145dbc3d745d08",
+    "7e113d5ea0480ab17193e71973587885142d086baec9ace3078bcac3414c8e51",
+    "8269b5242c3b10293b923933297bd0aa976aa4cb222c767911c24279cf3b6f03",
+    "832581713236f926a428d935c2f34d3269593d873c6e87bf50bec8651066b91f",
+    "835351a05fdb310bdd2fdc7b08831c6fe839cf7f9994d1c57226053fba3040db",
+    "9a907695b3a07a790b1f35a8be7eee9bf903bb7f04bb12eb4ef2727a7f4b128e",
+    "9b3ac5bede55c3ec42e6ddc254aef38fb98fd47553cf7577569e3715b3533980",
+    "a5e74a955f3e33cf87980d1916ccd8fe3f0d251a28803993cf274cf66f677504",
+    "abddddbf48b6360ca26f116c989384863095c13ca13b43288bdc696637ffdebb",
+    "ae0ad2eb7db332d8c76dabdc230de54fb1b4589c016a4297b559b95d8143e91b",
+    "b1b7dc69684b36072df15c5f0c9115f05a197a50ad47c9a5c051232a55712dd7",
+    "b3da62dd0de971e939114e6ab65b64f3c4c04d52470420f652d45e07bcf0c462",
+    "bf10c59442ae3b38b6ec577df7c40e2c8f40ec96f341f8ad28905b8945f22b36",
+    "c1504b0217e911fd49abd8e0ee4e3f5255c7117b5d50d0d45565e5a51f21c846",
+    "c370d5d2dfc339f711874f36b8686378bef1a1e84f54a509e8ac9d88cff583ac",
+    "c840a7e758ce747726007a467a9d6c059f4b70d5bc9d69683c3d270f4a9d1fee",
+    "cdf7f965e064b07b970cf1dbf72fd9c7c61b3a6d398fe6f3b3c06055dea7eaa0",
+    "d38e8f9553e4b9fb0f288601c0436051dde873547abdf49f40dcbc98150226ff",
+    "dbcec820617206c04128ded62682b9ec0efedd2041c50407a49c0fb4b360e65a",
+    "e3192c3aa75ab118c60db3439a46536c72aa3aea49d8fe34ff6ea47b5437bc9f",
+    "e48324506983ba051cc5a7f5b0087313fb3277ae30289ca46a292341bb3c2eb4",
+    "e8b6e0909d87bf110d334bc0850b299c7aa6591a7e5c07a775191f385d77e605",
+    "ed5dc9d473d51befdb85c6c5296bcbcbde817685b5fb4c866070cda942de9fc6",
+    "fd2591ffb5ce7c808caa4f3d278bdfa63e32956cf006b08bb15ee56217a51193"
+  ],
+  "mention_source_files_sample": [
+    "arrows_lowT_provenance_audit\\outputs\\summary.json",
+    "arrows_phase2b_controlled_fi_replay\\outputs\\phase2b_summary.json",
+    "arrows_phase2c_strict_provenance\\inputs\\sha256_manifest.json",
+    "arrows_phase2c_strict_provenance\\outputs\\strict_summary.json",
+    "arrows_phase2e_gate_verification\\outputs\\summary.json",
+    "outputs\\_arrows_redundancy_code_audit_staging\\04_strict_fi_cases\\inputs\\sha256_manifest.json",
+    "outputs\\_arrows_redundancy_code_audit_staging\\04_strict_fi_cases\\outputs\\strict_summary.json",
+    "outputs\\_arrows_redundancy_code_audit_staging\\05_phase2d\\outputs\\phase2d_summary.json",
+    "outputs\\_arrows_redundancy_code_audit_staging\\provenance\\phase2c_sha256_manifest.json",
+    "outputs\\anchor_evidence_gate_mitigation\\formal_41_80\\formal_summary.json",
+    "outputs\\anchor_evidence_gate_mitigation\\replay_21_40\\replay_summary.json",
+    "outputs\\anchor_evidence_gate_mitigation\\smoke\\smoke_summary.json",
+    "outputs\\robin_fi_evidence_gate_v2_identity_corrected_2026-10-06\\manifest.json"
+  ],
+  "candidate_manifests": [
+    {
+      "path": "arrows_phase2b_controlled_fi_replay/outputs/phase2b_case_manifest.csv",
+      "sha256": "0ecd5d1678247aa6ee643065bac4b334e28b1160902a48f81a1df6e37cca7aba",
+      "size": 4769
+    },
+    {
+      "path": "arrows_phase2c_strict_provenance/inputs/frozen_case_manifest.csv",
+      "sha256": "0ecd5d1678247aa6ee643065bac4b334e28b1160902a48f81a1df6e37cca7aba",
+      "size": 4769
+    },
+    {
+      "path": "arrows_phase2c_strict_provenance/inputs/sha256_manifest.json",
+      "sha256": "d79f35687f3a15380fb320747a5252c0d57a7dd83c3eb2ea7656dca6889e171b",
+      "size": 474
+    },
+    {
+      "path": "outputs/robin_fi_evidence_gate_v2_identity_corrected_2026-10-06/manifest.json",
+      "sha256": "97acb7a00adb5ac789b228b1994fc3ae456ab4bcc2527cd4f431368f463ee4fd",
+      "size": 3706
+    },
+    {
+      "path": "outputs/_arrows_redundancy_code_audit_staging/MANIFEST.txt",
+      "sha256": "da4a559a7286ddeaf20f8aa0f10f441bb86585662b209fe366f4dfde8b9ea6e6",
+      "size": 6556
+    },
+    {
+      "path": "outputs/arrows_redundancy_setting_audit/inputs/frozen_case_manifest.csv",
+      "sha256": "0ecd5d1678247aa6ee643065bac4b334e28b1160902a48f81a1df6e37cca7aba",
+      "size": 4769
+    },
+    {
+      "path": "outputs/_arrows_redundancy_code_audit_staging/provenance/phase2c_sha256_manifest.json",
+      "sha256": "d79f35687f3a15380fb320747a5252c0d57a7dd83c3eb2ea7656dca6889e171b",
+      "size": 474
+    },
+    {
+      "path": "outputs/_arrows_redundancy_code_audit_staging/04_strict_fi_cases/inputs/frozen_case_manifest_5_strict_fi.csv",
+      "sha256": "d6a9d4f6a1cc7394aa89a048e7ba1eba4f254f37cb3710658418e1e34526343b",
+      "size": 1560
+    },
+    {
+      "path": "outputs/_arrows_redundancy_code_audit_staging/04_strict_fi_cases/inputs/sha256_manifest.json",
+      "sha256": "d79f35687f3a15380fb320747a5252c0d57a7dd83c3eb2ea7656dca6889e171b",
+      "size": 474
+    }
+  ],
+  "hash_matches_to_mentioned_tokens": [
+    {
+      "path": "arrows_phase2b_controlled_fi_replay/outputs/phase2b_case_manifest.csv",
+      "sha256": "0ecd5d1678247aa6ee643065bac4b334e28b1160902a48f81a1df6e37cca7aba",
+      "size": 4769
+    },
+    {
+      "path": "arrows_phase2c_strict_provenance/inputs/frozen_case_manifest.csv",
+      "sha256": "0ecd5d1678247aa6ee643065bac4b334e28b1160902a48f81a1df6e37cca7aba",
+      "size": 4769
+    },
+    {
+      "path": "outputs/arrows_redundancy_setting_audit/inputs/frozen_case_manifest.csv",
+      "sha256": "0ecd5d1678247aa6ee643065bac4b334e28b1160902a48f81a1df6e37cca7aba",
+      "size": 4769
+    }
+  ],
+  "n_candidates": 9,
+  "n_matches": 3
+}

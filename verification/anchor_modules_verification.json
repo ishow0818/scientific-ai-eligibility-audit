@@ -1,0 +1,1372 @@
+[
+  {
+    "module": "anchor_main_1_20",
+    "inputs": [
+      "outputs\\pilot_fi_anchor\\summary_events.csv",
+      "outputs\\pilot_fi_anchor\\summary_seeds.csv"
+    ],
+    "method": "frozen_table_recount+nature_revision_audit.json",
+    "expected": {
+      "native_runs_with_event": 20,
+      "risk_records": 446,
+      "alt_fi": 78,
+      "no_single_round_violation": 26,
+      "with_single_round_violation": 52,
+      "no_violation_seeds": 15,
+      "neutral_alt_fi": 80,
+      "native_events_neutral_retained": 71,
+      "no_violation_neutral_retained": 26
+    },
+    "actual": {
+      "n_event_rows": 78,
+      "columns": [
+        "seed",
+        "family",
+        "t_elim",
+        "compat_at_elim",
+        "unsupported",
+        "t_excl_N",
+        "censored_N",
+        "dFI",
+        "t_elim_Neu",
+        "t_excl_Neu",
+        "censored_Neu",
+        "alive_Neu_at_elim",
+        "dCross",
+        "dFI_ge1"
+      ],
+      "native_event_rows": 78,
+      "endpoints_mentions": {
+        "mentions_446": false,
+        "mentions_78": true,
+        "mentions_17.49": false
+      },
+      "seed_json_1_20_present": true
+    },
+    "status": "PARTIAL",
+    "nature_revision_audit": {
+      "analysis_status": "read_only_offline_post_hoc",
+      "anchor": {
+        "status": "post_hoc_descriptive_only",
+        "primary_endpoint_unchanged": true,
+        "events_total": 78,
+        "first_chi2_violation_at_elimination": 52,
+        "no_chi2_violation_at_elimination": 26,
+        "no_violation_seed_count": 15,
+        "no_violation_neutral_retained": 26,
+        "truth_loss_confirmatory_seed_range": [
+          21,
+          40
+        ],
+        "truth_loss_f1_rows": [
+          {
+            "seed": 29,
+            "t_elim": 3,
+            "violation_at_elimination": true
+          },
+          {
+            "seed": 31,
+            "t_elim": 7,
+            "violation_at_elimination": false
+          },
+          {
+            "seed": 36,
+            "t_elim": 5,
+            "violation_at_elimination": false
+          },
+          {
+            "seed": 37,
+            "t_elim": 2,
+            "violation_at_elimination": false
+          }
+        ],
+        "rows": [
+          {
+            "seed": 1,
+            "family": "affine",
+            "t_elim": 6,
+            "first_violation": 6,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": false,
+            "t_excl_two_round": 7,
+            "censored": false
+          },
+          {
+            "seed": 1,
+            "family": "pow",
+            "t_elim": 6,
+            "first_violation": 6,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 7,
+            "censored": false
+          },
+          {
+            "seed": 1,
+            "family": "expsat",
+            "t_elim": 6,
+            "first_violation": 6,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 7,
+            "censored": false
+          },
+          {
+            "seed": 1,
+            "family": "quad",
+            "t_elim": 7,
+            "first_violation": 18,
+            "violation_at_elimination": false,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 19,
+            "censored": false
+          },
+          {
+            "seed": 2,
+            "family": "affine",
+            "t_elim": 4,
+            "first_violation": 4,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 5,
+            "censored": false
+          },
+          {
+            "seed": 2,
+            "family": "pow",
+            "t_elim": 4,
+            "first_violation": 4,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 5,
+            "censored": false
+          },
+          {
+            "seed": 2,
+            "family": "expsat",
+            "t_elim": 4,
+            "first_violation": 4,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 5,
+            "censored": false
+          },
+          {
+            "seed": 2,
+            "family": "quad",
+            "t_elim": 8,
+            "first_violation": 9,
+            "violation_at_elimination": false,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 10,
+            "censored": false
+          },
+          {
+            "seed": 3,
+            "family": "affine",
+            "t_elim": 7,
+            "first_violation": 7,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": false,
+            "t_excl_two_round": 8,
+            "censored": false
+          },
+          {
+            "seed": 3,
+            "family": "pow",
+            "t_elim": 2,
+            "first_violation": 2,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 3,
+            "censored": false
+          },
+          {
+            "seed": 3,
+            "family": "expsat",
+            "t_elim": 2,
+            "first_violation": 2,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 3,
+            "censored": false
+          },
+          {
+            "seed": 3,
+            "family": "quad",
+            "t_elim": 11,
+            "first_violation": 11,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 12,
+            "censored": false
+          },
+          {
+            "seed": 4,
+            "family": "affine",
+            "t_elim": 2,
+            "first_violation": 2,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 3,
+            "censored": false
+          },
+          {
+            "seed": 4,
+            "family": "pow",
+            "t_elim": 2,
+            "first_violation": 2,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 3,
+            "censored": false
+          },
+          {
+            "seed": 4,
+            "family": "expsat",
+            "t_elim": 2,
+            "first_violation": 2,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 3,
+            "censored": false
+          },
+          {
+            "seed": 4,
+            "family": "quad",
+            "t_elim": 6,
+            "first_violation": 13,
+            "violation_at_elimination": false,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 14,
+            "censored": false
+          },
+          {
+            "seed": 5,
+            "family": "affine",
+            "t_elim": 2,
+            "first_violation": 2,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 3,
+            "censored": false
+          },
+          {
+            "seed": 5,
+            "family": "pow",
+            "t_elim": 2,
+            "first_violation": 2,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 3,
+            "censored": false
+          },
+          {
+            "seed": 5,
+            "family": "expsat",
+            "t_elim": 2,
+            "first_violation": 2,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 3,
+            "censored": false
+          },
+          {
+            "seed": 5,
+            "family": "quad",
+            "t_elim": 5,
+            "first_violation": 15,
+            "violation_at_elimination": false,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 16,
+            "censored": false
+          },
+          {
+            "seed": 6,
+            "family": "affine",
+            "t_elim": 5,
+            "first_violation": 5,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 6,
+            "censored": false
+          },
+          {
+            "seed": 6,
+            "family": "pow",
+            "t_elim": 5,
+            "first_violation": 5,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 6,
+            "censored": false
+          },
+          {
+            "seed": 6,
+            "family": "expsat",
+            "t_elim": 5,
+            "first_violation": 5,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 6,
+            "censored": false
+          },
+          {
+            "seed": 6,
+            "family": "quad",
+            "t_elim": 8,
+            "first_violation": 18,
+            "violation_at_elimination": false,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 19,
+            "censored": false
+          },
+          {
+            "seed": 7,
+            "family": "affine",
+            "t_elim": 6,
+            "first_violation": 6,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 7,
+            "censored": false
+          },
+          {
+            "seed": 7,
+            "family": "pow",
+            "t_elim": 6,
+            "first_violation": 6,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 7,
+            "censored": false
+          },
+          {
+            "seed": 7,
+            "family": "expsat",
+            "t_elim": 6,
+            "first_violation": 6,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 7,
+            "censored": false
+          },
+          {
+            "seed": 7,
+            "family": "quad",
+            "t_elim": 10,
+            "first_violation": 10,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 11,
+            "censored": false
+          },
+          {
+            "seed": 8,
+            "family": "affine",
+            "t_elim": 4,
+            "first_violation": 4,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 5,
+            "censored": false
+          },
+          {
+            "seed": 8,
+            "family": "pow",
+            "t_elim": 4,
+            "first_violation": 4,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 5,
+            "censored": false
+          },
+          {
+            "seed": 8,
+            "family": "expsat",
+            "t_elim": 4,
+            "first_violation": 4,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 5,
+            "censored": false
+          },
+          {
+            "seed": 8,
+            "family": "quad",
+            "t_elim": 7,
+            "first_violation": 19,
+            "violation_at_elimination": false,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 20,
+            "censored": false
+          },
+          {
+            "seed": 9,
+            "family": "affine",
+            "t_elim": 8,
+            "first_violation": 8,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": false,
+            "t_excl_two_round": 9,
+            "censored": false
+          },
+          {
+            "seed": 9,
+            "family": "pow",
+            "t_elim": 4,
+            "first_violation": 8,
+            "violation_at_elimination": false,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 9,
+            "censored": false
+          },
+          {
+            "seed": 9,
+            "family": "expsat",
+            "t_elim": 4,
+            "first_violation": 5,
+            "violation_at_elimination": false,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 6,
+            "censored": false
+          },
+          {
+            "seed": 9,
+            "family": "quad",
+            "t_elim": 9,
+            "first_violation": 12,
+            "violation_at_elimination": false,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 13,
+            "censored": false
+          },
+          {
+            "seed": 10,
+            "family": "affine",
+            "t_elim": 8,
+            "first_violation": 8,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": false,
+            "t_excl_two_round": 9,
+            "censored": false
+          },
+          {
+            "seed": 10,
+            "family": "pow",
+            "t_elim": 3,
+            "first_violation": 8,
+            "violation_at_elimination": false,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 9,
+            "censored": false
+          },
+          {
+            "seed": 10,
+            "family": "expsat",
+            "t_elim": 3,
+            "first_violation": 7,
+            "violation_at_elimination": false,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 8,
+            "censored": false
+          },
+          {
+            "seed": 10,
+            "family": "quad",
+            "t_elim": 8,
+            "first_violation": 10,
+            "violation_at_elimination": false,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 11,
+            "censored": false
+          },
+          {
+            "seed": 11,
+            "family": "affine",
+            "t_elim": 2,
+            "first_violation": 2,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 3,
+            "censored": false
+          },
+          {
+            "seed": 11,
+            "family": "pow",
+            "t_elim": 2,
+            "first_violation": 2,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 3,
+            "censored": false
+          },
+          {
+            "seed": 11,
+            "family": "expsat",
+            "t_elim": 2,
+            "first_violation": 2,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 3,
+            "censored": false
+          },
+          {
+            "seed": 11,
+            "family": "quad",
+            "t_elim": 5,
+            "first_violation": 5,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 6,
+            "censored": false
+          },
+          {
+            "seed": 12,
+            "family": "affine",
+            "t_elim": 4,
+            "first_violation": 4,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 5,
+            "censored": false
+          },
+          {
+            "seed": 12,
+            "family": "pow",
+            "t_elim": 4,
+            "first_violation": 4,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 5,
+            "censored": false
+          },
+          {
+            "seed": 12,
+            "family": "expsat",
+            "t_elim": 4,
+            "first_violation": 4,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 5,
+            "censored": false
+          },
+          {
+            "seed": 12,
+            "family": "quad",
+            "t_elim": 14,
+            "first_violation": null,
+            "violation_at_elimination": false,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": null,
+            "censored": true
+          },
+          {
+            "seed": 13,
+            "family": "affine",
+            "t_elim": 3,
+            "first_violation": 3,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 4,
+            "censored": false
+          },
+          {
+            "seed": 13,
+            "family": "pow",
+            "t_elim": 3,
+            "first_violation": 3,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 4,
+            "censored": false
+          },
+          {
+            "seed": 13,
+            "family": "expsat",
+            "t_elim": 3,
+            "first_violation": 3,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 4,
+            "censored": false
+          },
+          {
+            "seed": 13,
+            "family": "quad",
+            "t_elim": 5,
+            "first_violation": 8,
+            "violation_at_elimination": false,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 9,
+            "censored": false
+          },
+          {
+            "seed": 14,
+            "family": "affine",
+            "t_elim": 3,
+            "first_violation": 3,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 4,
+            "censored": false
+          },
+          {
+            "seed": 14,
+            "family": "pow",
+            "t_elim": 3,
+            "first_violation": 3,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 4,
+            "censored": false
+          },
+          {
+            "seed": 14,
+            "family": "expsat",
+            "t_elim": 3,
+            "first_violation": 3,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 4,
+            "censored": false
+          },
+          {
+            "seed": 14,
+            "family": "quad",
+            "t_elim": 5,
+            "first_violation": 14,
+            "violation_at_elimination": false,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 15,
+            "censored": false
+          },
+          {
+            "seed": 15,
+            "family": "affine",
+            "t_elim": 5,
+            "first_violation": 5,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 6,
+            "censored": false
+          },
+          {
+            "seed": 15,
+            "family": "pow",
+            "t_elim": 5,
+            "first_violation": 5,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 6,
+            "censored": false
+          },
+          {
+            "seed": 15,
+            "family": "expsat",
+            "t_elim": 4,
+            "first_violation": 5,
+            "violation_at_elimination": false,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 6,
+            "censored": false
+          },
+          {
+            "seed": 15,
+            "family": "quad",
+            "t_elim": 8,
+            "first_violation": null,
+            "violation_at_elimination": false,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": null,
+            "censored": true
+          },
+          {
+            "seed": 16,
+            "family": "affine",
+            "t_elim": 13,
+            "first_violation": 13,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": false,
+            "t_excl_two_round": 14,
+            "censored": false
+          },
+          {
+            "seed": 16,
+            "family": "pow",
+            "t_elim": 5,
+            "first_violation": 13,
+            "violation_at_elimination": false,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 14,
+            "censored": false
+          },
+          {
+            "seed": 16,
+            "family": "expsat",
+            "t_elim": 5,
+            "first_violation": 6,
+            "violation_at_elimination": false,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 9,
+            "censored": false
+          },
+          {
+            "seed": 16,
+            "family": "quad",
+            "t_elim": 14,
+            "first_violation": null,
+            "violation_at_elimination": false,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": null,
+            "censored": true
+          },
+          {
+            "seed": 17,
+            "family": "affine",
+            "t_elim": 4,
+            "first_violation": 4,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 5,
+            "censored": false
+          },
+          {
+            "seed": 17,
+            "family": "pow",
+            "t_elim": 4,
+            "first_violation": 4,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 5,
+            "censored": false
+          },
+          {
+            "seed": 17,
+            "family": "expsat",
+            "t_elim": 4,
+            "first_violation": 4,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 5,
+            "censored": false
+          },
+          {
+            "seed": 18,
+            "family": "affine",
+            "t_elim": 9,
+            "first_violation": 9,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": false,
+            "t_excl_two_round": 10,
+            "censored": false
+          },
+          {
+            "seed": 18,
+            "family": "pow",
+            "t_elim": 2,
+            "first_violation": 9,
+            "violation_at_elimination": false,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 10,
+            "censored": false
+          },
+          {
+            "seed": 18,
+            "family": "expsat",
+            "t_elim": 2,
+            "first_violation": 3,
+            "violation_at_elimination": false,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 4,
+            "censored": false
+          },
+          {
+            "seed": 18,
+            "family": "quad",
+            "t_elim": 11,
+            "first_violation": null,
+            "violation_at_elimination": false,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": null,
+            "censored": true
+          },
+          {
+            "seed": 19,
+            "family": "affine",
+            "t_elim": 8,
+            "first_violation": 8,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": false,
+            "t_excl_two_round": 9,
+            "censored": false
+          },
+          {
+            "seed": 19,
+            "family": "pow",
+            "t_elim": 3,
+            "first_violation": 8,
+            "violation_at_elimination": false,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 9,
+            "censored": false
+          },
+          {
+            "seed": 19,
+            "family": "expsat",
+            "t_elim": 3,
+            "first_violation": 4,
+            "violation_at_elimination": false,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 5,
+            "censored": false
+          },
+          {
+            "seed": 19,
+            "family": "quad",
+            "t_elim": 9,
+            "first_violation": 10,
+            "violation_at_elimination": false,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 15,
+            "censored": false
+          },
+          {
+            "seed": 20,
+            "family": "affine",
+            "t_elim": 2,
+            "first_violation": 2,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 3,
+            "censored": false
+          },
+          {
+            "seed": 20,
+            "family": "pow",
+            "t_elim": 2,
+            "first_violation": 2,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 3,
+            "censored": false
+          },
+          {
+            "seed": 20,
+            "family": "expsat",
+            "t_elim": 2,
+            "first_violation": 2,
+            "violation_at_elimination": true,
+            "neutral_retained_at_elimination": true,
+            "t_excl_two_round": 3,
+            "censored": false
+          }
+        ]
+      },
+      "camels": {
+        "status": "post_hoc_descriptive_only",
+        "frozen_posterior_redraw_performed": false,
+        "reason": "Only saved proposal arrays, not posterior checkpoints, are present.",
+        "events_total": 4,
+        "unique_sim_idx": [
+          378,
+          710
+        ],
+        "identity_counts": {
+          "710": 3,
+          "378": 1
+        },
+        "highk_global_admissible": 409,
+        "highk_global_total": 1000,
+        "highk_threshold": 6.131947439030239,
+        "rows": [
+          {
+            "seed": 55,
+            "sim_idx": 710,
+            "loss_generation": 2,
+            "first_reentry_generation": 3,
+            "radius": 0.22450783051425183,
+            "native_counts_within_radius_by_generation": [
+              2,
+              5,
+              0,
+              40,
+              19,
+              51,
+              27
+            ],
+            "neutral_counts_within_radius_by_generation": [
+              3,
+              27,
+              14,
+              24,
+              25,
+              37,
+              27
+            ],
+            "native_min_distance_by_generation": [
+              0.16905190761086453,
+              0.1399968403300256,
+              0.23920166328991593,
+              0.10840627110105937,
+              0.16208468459007339,
+              0.10367414379200553,
+              0.10133581369105046
+            ],
+            "neutral_min_distance_by_generation": [
+              0.19846190181010773,
+              0.15072435494223374,
+              0.09736442894589417,
+              0.15163384067850227,
+              0.13451235738921308,
+              0.11838711896721577,
+              0.16268940829693027
+            ],
+            "highk_D2": 6.12240208215743,
+            "highk_pass": true,
+            "highk_margin": 0.009545356872808775
+          },
+          {
+            "seed": 60,
+            "sim_idx": 710,
+            "loss_generation": 3,
+            "first_reentry_generation": 4,
+            "radius": 0.22450783051425183,
+            "native_counts_within_radius_by_generation": [
+              26,
+              61,
+              74,
+              0,
+              15,
+              31,
+              23
+            ],
+            "neutral_counts_within_radius_by_generation": [
+              3,
+              13,
+              73,
+              30,
+              21,
+              25,
+              17
+            ],
+            "native_min_distance_by_generation": [
+              0.13922440847481363,
+              0.1268615620560197,
+              0.111628704468865,
+              0.24591240750595816,
+              0.1369430043396003,
+              0.11148813383092263,
+              0.17032367468120482
+            ],
+            "neutral_min_distance_by_generation": [
+              0.16891843199052084,
+              0.1383771853744858,
+              0.07362777975657629,
+              0.1041901168402116,
+              0.1376368779805381,
+              0.13205464238873635,
+              0.14616492849217377
+            ],
+            "highk_D2": 6.12240208215743,
+            "highk_pass": true,
+            "highk_margin": 0.009545356872808775
+          },
+          {
+            "seed": 63,
+            "sim_idx": 378,
+            "loss_generation": 2,
+            "first_reentry_generation": 3,
+            "radius": 0.22450783051425183,
+            "native_counts_within_radius_by_generation": [
+              1,
+              6,
+              0,
+              2,
+              12,
+              16,
+              5
+            ],
+            "neutral_counts_within_radius_by_generation": [
+              11,
+              34,
+              88,
+              34,
+              32,
+              105,
+              42
+            ],
+            "native_min_distance_by_generation": [
+              0.18484338233876926,
+              0.15874809107193472,
+              0.22943901076480008,
+              0.1983640493711695,
+              0.15469228583732597,
+              0.1129348467038095,
+              0.15927438581396716
+            ],
+            "neutral_min_distance_by_generation": [
+              0.11498057956603851,
+              0.11142799549464498,
+              0.0846374646690482,
+              0.11212686596752097,
+              0.1260901347101146,
+              0.07521369276865612,
+              0.10770373415923255
+            ],
+            "highk_D2": 2.1656436907997456,
+            "highk_pass": true,
+            "highk_margin": 3.9663037482304935
+          },
+          {
+            "seed": 65,
+            "sim_idx": 710,
+            "loss_generation": 5,
+            "first_reentry_generation": 6,
+            "radius": 0.22450783051425183,
+            "native_counts_within_radius_by_generation": [
+              8,
+              7,
+              6,
+              9,
+              4,
+              0,
+              1
+            ],
+            "neutral_counts_within_radius_by_generation": [
+              15,
+              72,
+              24,
+              14,
+              26,
+              19,
+              28
+            ],
+            "native_min_distance_by_generation": [
+              0.13348846601347544,
+              0.170879460214689,
+              0.11760696499177932,
+              0.156725063540224,
+              0.15997147640693604,
+              0.2291662754849272,
+              0.17075999171192036
+            ],
+            "neutral_min_distance_by_generation": [
+              0.14417791735155322,
+              0.11322826605850074,
+              0.13116412335888214,
+              0.14114269700223966,
+              0.11676889662975555,
+              0.14092216314043254,
+              0.09883980932170096
+            ],
+            "highk_D2": 6.12240208215743,
+            "highk_pass": true,
+            "highk_margin": 0.009545356872808775
+          }
+        ]
+      }
+    },
+    "related_audit_dir": "outputs/anchor_exit_mechanism_audit",
+    "endpoints_json": {
+      "n_seeds": 20,
+      "runtime_s": 1023.8776919000011,
+      "E1_seed_unsupported_frac": 1.0,
+      "E1_seed_k": 20,
+      "E1_seed_n": 20,
+      "E1_seed_ci95": [
+        0.8315665290169145,
+        1.0
+      ],
+      "E1_event_unsupported_frac": 1.0,
+      "E1_event_k": 78,
+      "E1_event_n": 78,
+      "E1_event_ci95": [
+        0.9538075796719513,
+        1.0
+      ],
+      "total_auditable_elim_events": 78,
+      "unsupported_elim_events": 78,
+      "E2_frac_dFI_ge1": 1.0,
+      "E2_frac_dFI_ge1_k": 78,
+      "E2_frac_dFI_ge1_n": 78,
+      "E2_frac_dFI_ge1_ci95": [
+        0.9538075796719513,
+        1.0
+      ],
+      "E2_median_finite_dFI": 1.0,
+      "E2_n_dFI_finite": 74,
+      "E2_n_dFI_censored": 4,
+      "E2_median_dCross": 9.0,
+      "E2_n_dCross_finite": 78,
+      "E2_frac_dCross_ge1": 0.9743589743589743,
+      "E3_rescue_frac": 0.9102564102564102,
+      "E3_rescue_k": 71,
+      "E3_rescue_n": 78,
+      "E3_rescue_ci95": [
+        0.8237965278331271,
+        0.9631531037254115
+      ],
+      "neutral_converged_k": 20,
+      "neutral_converged_frac": 1.0,
+      "native_final_truth_frac": 0.9,
+      "truth_elim_native_frac": 0.1,
+      "round0_all_compat_k": 20,
+      "round0_all_compat_frac": 1.0,
+      "neutral_truth_excluded_count": 0,
+      "native_truth_excluded_count": 1,
+      "neutral_max_abs_gain": 0.0,
+      "native_mean_gain": 0.5778236432068273,
+      "gain_profile": {
+        "native_t1": {
+          "mean_g": 0.9021029891788575,
+          "n": 80
+        },
+        "native_t2": {
+          "mean_g": 0.7104978095469368,
+          "n": 64
+        },
+        "native_t3": {
+          "mean_g": 0.35696037958685267,
+          "n": 53
+        },
+        "native_t4": {
+          "mean_g": 0.1792989551299079,
+          "n": 37
+        },
+        "native_t5": {
+          "mean_g": 1.3355733866324127,
+          "n": 26
+        },
+        "native_t6": {
+          "mean_g": 0.0,
+          "n": 19
+        },
+        "native_t7": {
+          "mean_g": 0.12786639261444005,
+          "n": 16
+        },
+        "native_t8": {
+          "mean_g": 0.0932648537569179,
+          "n": 9
+        },
+        "native_t9": {
+          "mean_g": 0.0,
+          "n": 6
+        },
+        "native_t10": {
+          "mean_g": 1.1667643511551895,
+          "n": 5
+        },
+        "native_t11": {
+          "mean_g": 1.9290697770659045e-07,
+          "n": 3
+        },
+        "native_t12": {
+          "mean_g": 0.0,
+          "n": 3
+        },
+        "native_t13": {
+          "mean_g": 0.0,
+          "n": 2
+        },
+        "neutral_t1": {
+          "mean_g": 0.0,
+          "n": 80
+        },
+        "neutral_t2": {
+          "mean_g": 0.0,
+          "n": 80
+        },
+        "neutral_t3": {
+          "mean_g": 0.0,
+          "n": 80
+        },
+        "neutral_t4": {
+          "mean_g": 0.0,
+          "n": 80
+        },
+        "neutral_t5": {
+          "mean_g": 0.0,
+          "n": 80
+        },
+        "neutral_t6": {
+          "mean_g": 0.0,
+          "n": 74
+        },
+        "neutral_t7": {
+          "mean_g": 0.0,
+          "n": 62
+        },
+        "neutral_t8": {
+          "mean_g": 0.0,
+          "n": 52
+        },
+        "neutral_t9": {
+          "mean_g": 0.0,
+          "n": 34
+        },
+        "neutral_t10": {
+          "mean_g": 0.0,
+          "n": 26
+        },
+        "neutral_t11": {
+          "mean_g": 0.0,
+          "n": 18
+        },
+        "neutral_t12": {
+          "mean_g": 0.0,
+          "n": 16
+        },
+        "neutral_t13": {
+          "mean_g": 0.0,
+          "n": 15
+        },
+        "neutral_t14": {
+          "mean_g": 0.0,
+          "n": 15
+        },
+        "neutral_t15": {
+          "mean_g": 0.0,
+          "n": 15
+        },
+        "neutral_t16": {
+          "mean_g": 0.0,
+          "n": 15
+        },
+        "neutral_t17": {
+          "mean_g": 0.0,
+          "n": 15
+        },
+        "neutral_t18": {
+          "mean_g": 0.0,
+          "n": 14
+        },
+        "neutral_t19": {
+          "mean_g": 0.0,
+          "n": 13
+        },
+        "neutral_t20": {
+          "mean_g": 0.0,
+          "n": 5
+        },
+        "neutral_t21": {
+          "mean_g": 0.0,
+          "n": 1
+        }
+      },
+      "gain_delta_primary": 0.05,
+      "gain_by_delta": {
+        "0.01": {
+          "mean_g": 0.2217440008819176,
+          "max_abs_g": 62.824824634481864,
+          "n": 1113
+        },
+        "0.025": {
+          "mean_g": 0.18021666234934974,
+          "max_abs_g": 25.12992985379275,
+          "n": 1113
+        },
+        "0.05": {
+          "mean_g": 0.1676882630330685,
+          "max_abs_g": 12.669598801466778,
+          "n": 1113
+        }
+      },
+      "focal_n": 20,
+      "matching_ok": true,
+      "matching_detail": []
+    },
+    "note": "seed/event files present; endpoints.json does not clearly embed all expected scalars"
+  },
+  {
+    "module": "no_opp_1_20",
+    "inputs": [
+      "outputs\\pilot_opp_feedback_ablation_formal_v2"
+    ],
+    "method": "frozen_output_presence+summary_scan",
+    "expected": {
+      "native_alt_fi": 78,
+      "noop_alt_fi": 79,
+      "native_true_fi": 2,
+      "noop_true_fi": 1,
+      "seed20_native_true_lost": true,
+      "seed20_noop_true_kept": true
+    },
+    "actual": {
+      "n_files": 33,
+      "mentions": {
+        "78": 2535,
+        "79": true,
+        "seed_20": true
+      },
+      "summary_like": [
+        "formal_seed_summary.csv",
+        "verdict.json",
+        "formal_aggregate.json",
+        "seed_01_paired.json",
+        "seed_02_paired.json",
+        "seed_03_paired.json",
+        "seed_04_paired.json",
+        "seed_05_paired.json",
+        "seed_06_paired.json",
+        "seed_07_paired.json",
+        "seed_08_paired.json",
+        "seed_09_paired.json",
+        "seed_10_paired.json",
+        "seed_11_paired.json",
+        "seed_12_paired.json",
+        "seed_13_paired.json",
+        "seed_14_paired.json",
+        "seed_15_paired.json",
+        "seed_16_paired.json",
+        "seed_17_paired.json",
+        "seed_18_paired.json",
+        "seed_19_paired.json",
+        "seed_20_paired.json",
+        "verdict.json"
+      ]
+    },
+    "status": "PASS",
+    "note": "formal outputs present and key counts appear in artifacts; full pairwise event audit not re-derived here"
+  },
+  {
+    "module": "truth_loss_21_40",
+    "inputs": [
+      "outputs\\pilot_truth_loss_v2"
+    ],
+    "method": "frozen_output_scan",
+    "expected": {
+      "native_true_loss": "4/20",
+      "seeds": [
+        29,
+        31,
+        36,
+        37
+      ],
+      "rmse_ratios": [
+        7.0978,
+        29.1617,
+        8.8816,
+        39.9114
+      ],
+      "median": 19.0217
+    },
+    "actual": {
+      "seeds_mentioned": [
+        29,
+        31,
+        36,
+        37
+      ],
+      "mentions_4_20": true,
+      "mentions_7.0978": false,
+      "mentions_29.1617": true,
+      "mentions_8.8816": true,
+      "mentions_39.9114": true,
+      "mentions_19.0217": false
+    },
+    "status": "PARTIAL",
+    "note": "loss seeds present; RMSE string match incomplete in scanned text"
+  }
+]

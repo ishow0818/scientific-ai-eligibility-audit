@@ -1,0 +1,20 @@
+{
+  "verdict": "FIX",
+  "tests_ok": true,
+  "summary": {
+    "native_fi": 78,
+    "neutral_fi": 80,
+    "native_fi_no_single_chi2": 26,
+    "neutral_fi_no_single_chi2": 77,
+    "weight_prune_failures": 0,
+    "paired_native_earlier": 71,
+    "paired_neutral_earlier": 7,
+    "paired_same_round": 2,
+    "paired_both_censored": 0,
+    "finite_delta_n": 78,
+    "finite_delta_median": -6.0,
+    "old_incorrect_median_note": "Prior audit reported median -5.5 using censor sentinel R+1=26; that statistic is withdrawn."
+  },
+  "old_audit_preserved": "D:\\home\\Identifiability\\outputs\\anchor_exit_mechanism_audit",
+  "output_dir": "D:\\home\\Identifiability\\outputs\\anchor_corrected_stats_v1"
+}

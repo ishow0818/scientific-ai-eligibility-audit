@@ -1,0 +1,1192 @@
+{
+  "lock_version": "open-eligibility-lock-v1",
+  "source_stage2": "evidence_gated_eligibility/outputs/stage2_formal",
+  "n": 40,
+  "seeds": [
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240
+  ],
+  "rmse_atol": 1e-12,
+  "aggregate": {
+    "native_truth_selected_k": 37,
+    "open_truth_selected_k": 40,
+    "decision_truth_selected_k": 39,
+    "native_rmse_mean": 0.1354327317765893,
+    "open_rmse_mean": 0.08467739393293651,
+    "decision_rmse_mean": 0.10334176358232412,
+    "open_ne_native": [
+      208,
+      224,
+      232
+    ],
+    "open_ne_decision": [
+      208
+    ],
+    "decision_ne_native": [
+      224,
+      232
+    ],
+    "open_winner_evidence_excluded_k": 1,
+    "open_winner_history_pruned_k": 3
+  },
+  "per_seed": [
+    {
+      "seed": 201,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.05856787670891846,
+      "open_rmse": 0.05856787670891846,
+      "decision_rmse": 0.05856787670891846,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 8.10659279073719,
+        "mu": 4.501801829474304,
+        "s": 2.4655834001501886
+      },
+      "w_all": {
+        "hump": 0.9999889414984161,
+        "affine": 7.18957689921223e-180,
+        "pow": 5.895967634102437e-181,
+        "expsat": 4.952167745894577e-168,
+        "quad": 1.1058501583940416e-05
+      }
+    },
+    {
+      "seed": 202,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.07287327558848626,
+      "open_rmse": 0.07287327558848626,
+      "decision_rmse": 0.07287327558848626,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 8.018029331438035,
+        "mu": 4.505231236805936,
+        "s": 2.5385072155876207
+      },
+      "w_all": {
+        "hump": 0.9999999998650284,
+        "affine": 2.6188888119505875e-166,
+        "pow": 1.616652821021655e-159,
+        "expsat": 1.1671158715318464e-142,
+        "quad": 1.3497163489132775e-10
+      }
+    },
+    {
+      "seed": 203,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.06608825892784943,
+      "open_rmse": 0.06608825892784943,
+      "decision_rmse": 0.06608825892784943,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 8.03088632763098,
+        "mu": 4.481825499858767,
+        "s": 2.4595064900558055
+      },
+      "w_all": {
+        "hump": 0.9999169877713798,
+        "affine": 3.6717643385595886e-75,
+        "pow": 6.8822634418695864e-74,
+        "expsat": 1.6417111847595914e-66,
+        "quad": 8.301222862007476e-05
+      }
+    },
+    {
+      "seed": 204,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.05064420905170621,
+      "open_rmse": 0.05064420905170621,
+      "decision_rmse": 0.05064420905170621,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 7.938633507963421,
+        "mu": 4.518287219755656,
+        "s": 2.530237107704492
+      },
+      "w_all": {
+        "hump": 0.9999997790689557,
+        "affine": 9.92720208349339e-154,
+        "pow": 1.6097624232039354e-150,
+        "expsat": 2.2367650739249005e-139,
+        "quad": 2.2093104445970946e-07
+      }
+    },
+    {
+      "seed": 205,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.03615841479793672,
+      "open_rmse": 0.03615841479793672,
+      "decision_rmse": 0.03615841479793672,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 8.05275424244098,
+        "mu": 4.503842740847927,
+        "s": 2.5006108419011883
+      },
+      "w_all": {
+        "hump": 0.9947502210141856,
+        "affine": 9.368331950418824e-97,
+        "pow": 5.833757229376193e-104,
+        "expsat": 6.837339664384691e-96,
+        "quad": 0.005249778985814357
+      }
+    },
+    {
+      "seed": 206,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.07656538756880091,
+      "open_rmse": 0.07656538756880091,
+      "decision_rmse": 0.07656538756880091,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 8.100035592952159,
+        "mu": 4.531550063251117,
+        "s": 2.4938581225438097
+      },
+      "w_all": {
+        "hump": 0.9997247617648709,
+        "affine": 1.645957152711251e-75,
+        "pow": 8.585669543664179e-74,
+        "expsat": 6.251727995362132e-66,
+        "quad": 0.00027523823512914415
+      }
+    },
+    {
+      "seed": 207,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.07034148925616457,
+      "open_rmse": 0.07034148925616457,
+      "decision_rmse": 0.07034148925616457,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 7.873016839474985,
+        "mu": 4.4965985666231605,
+        "s": 2.5187621007228898
+      },
+      "w_all": {
+        "hump": 0.9999913094895903,
+        "affine": 2.126347150208785e-81,
+        "pow": 3.1166799486396335e-81,
+        "expsat": 1.4417221298538333e-75,
+        "quad": 8.69051040969267e-06
+      }
+    },
+    {
+      "seed": 208,
+      "native_incumbent": "quad",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "quad",
+      "native_truth": false,
+      "open_truth": true,
+      "decision_truth": false,
+      "native_rmse": 0.8292017328784653,
+      "open_rmse": 0.08262694690296106,
+      "decision_rmse": 0.8292017328784653,
+      "open_winner_excluded_by_evidence": true,
+      "open_winner_pruned_by_history": true,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 7.885397128220048,
+        "mu": 4.521636748062925,
+        "s": 2.5540055655081275
+      },
+      "w_all": {
+        "hump": 0.5491274305009477,
+        "affine": 7.862615764993287e-86,
+        "pow": 6.732216504253409e-77,
+        "expsat": 6.968041056121185e-62,
+        "quad": 0.45087256949905224
+      }
+    },
+    {
+      "seed": 209,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.13456216280348263,
+      "open_rmse": 0.13456216280348263,
+      "decision_rmse": 0.13456216280348263,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 8.161687529318552,
+        "mu": 4.553164450300255,
+        "s": 2.500874888419739
+      },
+      "w_all": {
+        "hump": 0.9998224995909542,
+        "affine": 3.2263388218977217e-147,
+        "pow": 5.434907392438628e-118,
+        "expsat": 6.397558578344992e-76,
+        "quad": 0.00017750040904588118
+      }
+    },
+    {
+      "seed": 210,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.06346713938752377,
+      "open_rmse": 0.06346713938752377,
+      "decision_rmse": 0.06346713938752377,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 7.990719686950628,
+        "mu": 4.537243111637415,
+        "s": 2.519587257373548
+      },
+      "w_all": {
+        "hump": 0.9999499233846668,
+        "affine": 2.1971002605151254e-140,
+        "pow": 1.9306755955624536e-138,
+        "expsat": 2.1855245708160466e-114,
+        "quad": 5.0076615333262005e-05
+      }
+    },
+    {
+      "seed": 211,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.04475018968965228,
+      "open_rmse": 0.04475018968965228,
+      "decision_rmse": 0.04475018968965228,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 7.9304235156107845,
+        "mu": 4.516286411625249,
+        "s": 2.5127183023801876
+      },
+      "w_all": {
+        "hump": 0.9999996963221763,
+        "affine": 2.888238914637112e-118,
+        "pow": 6.806027551420884e-125,
+        "expsat": 3.1478844362414306e-114,
+        "quad": 3.036778237178987e-07
+      }
+    },
+    {
+      "seed": 212,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.1457661713225998,
+      "open_rmse": 0.1457661713225998,
+      "decision_rmse": 0.1457661713225998,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 8.262453410624305,
+        "mu": 4.493312031030975,
+        "s": 2.4644324681681278
+      },
+      "w_all": {
+        "hump": 0.9999999999829763,
+        "affine": 4.849194075196911e-172,
+        "pow": 1.0201746325860393e-178,
+        "expsat": 4.9342784765448657e-166,
+        "quad": 1.702370872564956e-11
+      }
+    },
+    {
+      "seed": 213,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.09144156891103454,
+      "open_rmse": 0.09144156891103454,
+      "decision_rmse": 0.09144156891103454,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 8.161518838868323,
+        "mu": 4.487077172095395,
+        "s": 2.4486896754069303
+      },
+      "w_all": {
+        "hump": 0.999999990950248,
+        "affine": 4.8381221412532374e-157,
+        "pow": 7.821056240664957e-157,
+        "expsat": 2.249215817415614e-132,
+        "quad": 9.049751975882458e-09
+      }
+    },
+    {
+      "seed": 214,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.03215337959671674,
+      "open_rmse": 0.03215337959671674,
+      "decision_rmse": 0.03215337959671674,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 7.98893893807598,
+        "mu": 4.484471035433191,
+        "s": 2.5168753433510553
+      },
+      "w_all": {
+        "hump": 0.9999999999998257,
+        "affine": 1.0576972531021802e-148,
+        "pow": 1.150237427959255e-123,
+        "expsat": 5.667562105848736e-97,
+        "quad": 1.742347522804507e-13
+      }
+    },
+    {
+      "seed": 215,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.17335177516107203,
+      "open_rmse": 0.17335177516107203,
+      "decision_rmse": 0.17335177516107203,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 7.699910599083278,
+        "mu": 4.538043500837693,
+        "s": 2.591965455878651
+      },
+      "w_all": {
+        "hump": 0.9990131036512726,
+        "affine": 1.545145753159787e-134,
+        "pow": 1.2210256564742488e-87,
+        "expsat": 4.38586181898352e-60,
+        "quad": 0.000986896348727367
+      }
+    },
+    {
+      "seed": 216,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.10205000410057319,
+      "open_rmse": 0.10205000410057319,
+      "decision_rmse": 0.10205000410057319,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 8.03780347105141,
+        "mu": 4.446573944075434,
+        "s": 2.531301517405004
+      },
+      "w_all": {
+        "hump": 1.0,
+        "affine": 6.903415256379422e-257,
+        "pow": 1.5456262319808383e-234,
+        "expsat": 8.244298222780009e-193,
+        "quad": 4.83220127975569e-22
+      }
+    },
+    {
+      "seed": 217,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.0539041888521824,
+      "open_rmse": 0.0539041888521824,
+      "decision_rmse": 0.0539041888521824,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 7.983515311727798,
+        "mu": 4.532603066249021,
+        "s": 2.5162274716338704
+      },
+      "w_all": {
+        "hump": 0.9999999999986178,
+        "affine": 3.7473287812192136e-143,
+        "pow": 1.5336538861833156e-139,
+        "expsat": 3.2416768995848202e-115,
+        "quad": 1.3822399234746599e-12
+      }
+    },
+    {
+      "seed": 218,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.043721309343757904,
+      "open_rmse": 0.043721309343757904,
+      "decision_rmse": 0.043721309343757904,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 8.06580400579281,
+        "mu": 4.48274861188638,
+        "s": 2.4853824283963424
+      },
+      "w_all": {
+        "hump": 0.9999999985720769,
+        "affine": 3.899202955115427e-142,
+        "pow": 1.5824159076367196e-140,
+        "expsat": 4.012222964658041e-121,
+        "quad": 1.427923170466154e-09
+      }
+    },
+    {
+      "seed": 219,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.0633789199207944,
+      "open_rmse": 0.0633789199207944,
+      "decision_rmse": 0.0633789199207944,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 7.989754859217629,
+        "mu": 4.535485957933919,
+        "s": 2.522160627378067
+      },
+      "w_all": {
+        "hump": 0.98411887194223,
+        "affine": 5.0956704760875446e-26,
+        "pow": 1.0944837702005354e-26,
+        "expsat": 1.6946047007026436e-22,
+        "quad": 0.015881128057770037
+      }
+    },
+    {
+      "seed": 220,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.06145775732170492,
+      "open_rmse": 0.06145775732170492,
+      "decision_rmse": 0.06145775732170492,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 8.036289417928291,
+        "mu": 4.515275928247532,
+        "s": 2.5228565570874126
+      },
+      "w_all": {
+        "hump": 1.0,
+        "affine": 2.0435063441283343e-257,
+        "pow": 1.1898818221329397e-272,
+        "expsat": 7.1948908646957885e-258,
+        "quad": 1.4098546816972183e-20
+      }
+    },
+    {
+      "seed": 221,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.07000313661503155,
+      "open_rmse": 0.07000313661503155,
+      "decision_rmse": 0.07000313661503155,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 8.019299566348252,
+        "mu": 4.455301658201805,
+        "s": 2.48508811008216
+      },
+      "w_all": {
+        "hump": 0.9999999998266822,
+        "affine": 3.1557181991285317e-130,
+        "pow": 3.927518469950416e-131,
+        "expsat": 3.260100964413244e-119,
+        "quad": 1.7331773418466481e-10
+      }
+    },
+    {
+      "seed": 222,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.08987470960259303,
+      "open_rmse": 0.08987470960259303,
+      "decision_rmse": 0.08987470960259303,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 8.090570735538025,
+        "mu": 4.5432476386347975,
+        "s": 2.502248311523783
+      },
+      "w_all": {
+        "hump": 0.9985507373054692,
+        "affine": 7.535625559109745e-195,
+        "pow": 1.1997840137565629e-193,
+        "expsat": 8.876738403932089e-160,
+        "quad": 0.0014492626945308753
+      }
+    },
+    {
+      "seed": 223,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.1511632121765488,
+      "open_rmse": 0.1511632121765488,
+      "decision_rmse": 0.1511632121765488,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 8.255545135988108,
+        "mu": 4.540147071903783,
+        "s": 2.4613198424463394
+      },
+      "w_all": {
+        "hump": 0.9999999797235748,
+        "affine": 1.0809623670207027e-206,
+        "pow": 8.286188393609616e-215,
+        "expsat": 4.349053289737921e-196,
+        "quad": 2.0276425308548747e-08
+      }
+    },
+    {
+      "seed": 224,
+      "native_incumbent": "quad",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": false,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.7517157109607586,
+      "open_rmse": 0.1447737015451857,
+      "decision_rmse": 0.1447737015451857,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": true,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 7.828742612936534,
+        "mu": 4.44025379237093,
+        "s": 2.4987607745842224
+      },
+      "w_all": {
+        "hump": 0.9997788627805145,
+        "affine": 9.598534687532467e-169,
+        "pow": 4.2337750010127815e-171,
+        "expsat": 1.3035148409281301e-147,
+        "quad": 0.00022113721948546474
+      }
+    },
+    {
+      "seed": 225,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.1389704439111445,
+      "open_rmse": 0.1389704439111445,
+      "decision_rmse": 0.1389704439111445,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 7.913113985217435,
+        "mu": 4.571186429545285,
+        "s": 2.565843855255189
+      },
+      "w_all": {
+        "hump": 0.969029667245616,
+        "affine": 3.5015590736223505e-64,
+        "pow": 1.4080436821227582e-41,
+        "expsat": 4.4498401970242194e-26,
+        "quad": 0.030970332754384117
+      }
+    },
+    {
+      "seed": 226,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.047144284366504335,
+      "open_rmse": 0.047144284366504335,
+      "decision_rmse": 0.047144284366504335,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 7.935043117978407,
+        "mu": 4.477354626946669,
+        "s": 2.5201246075947696
+      },
+      "w_all": {
+        "hump": 0.9999999504067518,
+        "affine": 1.0300559256080572e-199,
+        "pow": 2.0709378675570667e-187,
+        "expsat": 1.1331962407892237e-155,
+        "quad": 4.95932480498298e-08
+      }
+    },
+    {
+      "seed": 227,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.17674314928278484,
+      "open_rmse": 0.17674314928278484,
+      "decision_rmse": 0.17674314928278484,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 8.103327433118476,
+        "mu": 4.606969845981766,
+        "s": 2.507662287579929
+      },
+      "w_all": {
+        "hump": 0.9867389966153008,
+        "affine": 5.209188115158945e-114,
+        "pow": 2.0861499453729153e-104,
+        "expsat": 5.234757253898283e-78,
+        "quad": 0.013261003384699065
+      }
+    },
+    {
+      "seed": 228,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.04275323466981583,
+      "open_rmse": 0.04275323466981583,
+      "decision_rmse": 0.04275323466981583,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 8.004748793166886,
+        "mu": 4.496879298400732,
+        "s": 2.4738892804154777
+      },
+      "w_all": {
+        "hump": 0.9999998016764626,
+        "affine": 1.4289306319896294e-117,
+        "pow": 7.189815688580718e-96,
+        "expsat": 2.7374733933529257e-82,
+        "quad": 1.9832353726496907e-07
+      }
+    },
+    {
+      "seed": 229,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.03950245467051002,
+      "open_rmse": 0.03950245467051002,
+      "decision_rmse": 0.03950245467051002,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 8.046636277338871,
+        "mu": 4.520835081005968,
+        "s": 2.492513188449109
+      },
+      "w_all": {
+        "hump": 0.9999999999980818,
+        "affine": 1.2034221306328588e-128,
+        "pow": 3.325928639974296e-141,
+        "expsat": 8.647479547741441e-130,
+        "quad": 1.9182060494392664e-12
+      }
+    },
+    {
+      "seed": 230,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.10067688699009174,
+      "open_rmse": 0.10067688699009174,
+      "decision_rmse": 0.10067688699009174,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 7.839892674838294,
+        "mu": 4.520292118870423,
+        "s": 2.5111588365357136
+      },
+      "w_all": {
+        "hump": 0.9990853798321933,
+        "affine": 2.923082778469448e-55,
+        "pow": 7.172798430543558e-32,
+        "expsat": 1.5393116146651981e-24,
+        "quad": 0.0009146201678068412
+      }
+    },
+    {
+      "seed": 231,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.09119813332563065,
+      "open_rmse": 0.09119813332563065,
+      "decision_rmse": 0.09119813332563065,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 8.097291281718501,
+        "mu": 4.539546068451644,
+        "s": 2.50428004353781
+      },
+      "w_all": {
+        "hump": 0.9999999960923882,
+        "affine": 1.3462134624376034e-116,
+        "pow": 1.4473364015473512e-134,
+        "expsat": 2.3313762092066323e-121,
+        "quad": 3.907611785803617e-09
+      }
+    },
+    {
+      "seed": 232,
+      "native_incumbent": "quad",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": false,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.7685198598590994,
+      "open_rmse": 0.09182314150406487,
+      "decision_rmse": 0.09182314150406487,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": true,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 8.0361047037139,
+        "mu": 4.444258342941888,
+        "s": 2.473524267494305
+      },
+      "w_all": {
+        "hump": 0.9959914941720938,
+        "affine": 5.22129303180038e-173,
+        "pow": 2.5651937391704207e-154,
+        "expsat": 7.010429547316806e-119,
+        "quad": 0.004008505827906252
+      }
+    },
+    {
+      "seed": 233,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.07483467506831797,
+      "open_rmse": 0.07483467506831797,
+      "decision_rmse": 0.07483467506831797,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 7.891268980414063,
+        "mu": 4.470543828636454,
+        "s": 2.512941577090295
+      },
+      "w_all": {
+        "hump": 0.9999300448206366,
+        "affine": 8.318514275989389e-79,
+        "pow": 1.2931004846513749e-47,
+        "expsat": 2.5627088483862895e-27,
+        "quad": 6.995517936336581e-05
+      }
+    },
+    {
+      "seed": 234,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.07385594775690499,
+      "open_rmse": 0.07385594775690499,
+      "decision_rmse": 0.07385594775690499,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 8.04736511586843,
+        "mu": 4.496044647241132,
+        "s": 2.448451622433807
+      },
+      "w_all": {
+        "hump": 0.9999789126984371,
+        "affine": 5.300991126530491e-212,
+        "pow": 3.2252283581202414e-176,
+        "expsat": 3.504435644188821e-125,
+        "quad": 2.1087301562914478e-05
+      }
+    },
+    {
+      "seed": 235,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.0343609058117131,
+      "open_rmse": 0.0343609058117131,
+      "decision_rmse": 0.0343609058117131,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 7.947668647477589,
+        "mu": 4.506475746365267,
+        "s": 2.5227032636882014
+      },
+      "w_all": {
+        "hump": 0.9999999830454381,
+        "affine": 1.0983853895891592e-73,
+        "pow": 1.8751363076673372e-76,
+        "expsat": 2.449334801930103e-69,
+        "quad": 1.695456181499692e-08
+      }
+    },
+    {
+      "seed": 236,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.10230266536284097,
+      "open_rmse": 0.10230266536284097,
+      "decision_rmse": 0.10230266536284097,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 8.187406351843165,
+        "mu": 4.519044524021275,
+        "s": 2.4525427631865684
+      },
+      "w_all": {
+        "hump": 0.9999999999995612,
+        "affine": 4.526683785197473e-158,
+        "pow": 1.055904465651952e-147,
+        "expsat": 3.03773855015742e-115,
+        "quad": 4.3866120954502566e-13
+      }
+    },
+    {
+      "seed": 237,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.09141884379273676,
+      "open_rmse": 0.09141884379273676,
+      "decision_rmse": 0.09141884379273676,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 8.019318524240079,
+        "mu": 4.544560547562255,
+        "s": 2.4560221804842204
+      },
+      "w_all": {
+        "hump": 0.9999999999940556,
+        "affine": 2.8367162590506365e-148,
+        "pow": 7.059897329501847e-142,
+        "expsat": 1.3924739293438786e-126,
+        "quad": 5.944306089556453e-12
+      }
+    },
+    {
+      "seed": 238,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.06653013094881302,
+      "open_rmse": 0.06653013094881302,
+      "decision_rmse": 0.06653013094881302,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 8.034433580565363,
+        "mu": 4.476067406778398,
+        "s": 2.461866132121568
+      },
+      "w_all": {
+        "hump": 0.9999999999999998,
+        "affine": 5.72559887115546e-154,
+        "pow": 1.630774868510775e-139,
+        "expsat": 5.656140360063013e-120,
+        "quad": 1.190243083329592e-16
+      }
+    },
+    {
+      "seed": 239,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.1546362940422776,
+      "open_rmse": 0.1546362940422776,
+      "decision_rmse": 0.1546362940422776,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 7.73583664761522,
+        "mu": 4.473689954630774,
+        "s": 2.531924651109305
+      },
+      "w_all": {
+        "hump": 0.9999999999999982,
+        "affine": 2.366950815629155e-127,
+        "pow": 5.620591928945394e-121,
+        "expsat": 1.6278957743012513e-113,
+        "quad": 1.7503124149261912e-15
+      }
+    },
+    {
+      "seed": 240,
+      "native_incumbent": "hump",
+      "open_incumbent": "hump",
+      "decision_only_incumbent": "hump",
+      "native_truth": true,
+      "open_truth": true,
+      "decision_truth": true,
+      "native_rmse": 0.0806593806600319,
+      "open_rmse": 0.0806593806600319,
+      "decision_rmse": 0.0806593806600319,
+      "open_winner_excluded_by_evidence": false,
+      "open_winner_pruned_by_history": false,
+      "theta_reused_from_native": true,
+      "w_all_reused_from_native": true,
+      "open_incumbent_theta": {
+        "A": 7.857253763981549,
+        "mu": 4.515530769259534,
+        "s": 2.540998876934759
+      },
+      "w_all": {
+        "hump": 0.9978707342100156,
+        "affine": 4.713210216136368e-81,
+        "pow": 5.359518789129598e-70,
+        "expsat": 6.53913903783854e-59,
+        "quad": 0.002129265789984493
+      }
+    }
+  ]
+}

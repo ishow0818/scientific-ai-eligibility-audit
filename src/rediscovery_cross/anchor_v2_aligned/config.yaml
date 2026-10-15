@@ -1,0 +1,38 @@
+# Anchor Rediscovery v2 — CAMELS-aligned recoverability (frozen prereg)
+
+experiment:
+  name: anchor_v2_aligned_rediscovery
+  version: prereg-v2.0.0-camels-aligned
+
+  confirmatory_seeds: [121, 122, 123, 124, 125, 126, 127, 128, 129, 130,
+                       131, 132, 133, 134, 135, 136, 137, 138, 139, 140]
+  dry_run_seeds: [921, 922]
+
+  excluded_seed_ranges:
+    anchor_pilot: [1, 20]
+    anchor_rediscovery_v1: [101, 120]
+    camels_g2: [47, 51]
+    camels_g6: [52, 71]
+    camels_confirmatory: [72, 91]
+
+intervention:
+  off: "Hard elimination alive=False permanent (unchanged formal Anchor)"
+  on_v2: >
+    After first elimination, reconstruct represented set each round from current
+    w_all using ordinary threshold w_all >= THETA_W. No hypothetical revival gate.
+  not_used: "v1 special-threshold _hypothetical_w_surv >= THETA_W"
+
+mechanism:
+  shared_principle: >
+    Representation is reconstructed from the current state rather than irreversibly
+    inherited from past elimination.
+  anchor_v2_eligibility: "w_all[h] >= THETA_W (full-pool, same threshold as survivor criterion at t=0)"
+  camels_analog: "new posterior -> new proposals -> recompute membership representation"
+
+analysis:
+  primary: "Post-FI representation trajectory divergence OFF vs ON-v2"
+  secondary: "P(persistent|OFF) vs P(persistent|ON-v2)"
+  pre_loss_gate: "bit-identical through round before first unsupported FI"
+
+outputs:
+  root: outputs

@@ -1,0 +1,1427 @@
+{
+  "status": "POST_HOC_DESCRIPTIVE_ONLY",
+  "cutoff": 8.06280366370604,
+  "record_count": 153,
+  "all_pass_original_cutoff": true,
+  "L_RF": {
+    "min": 3.227868000261907,
+    "q25": 5.081278696092476,
+    "median": 5.937614823976029,
+    "q75": 6.749480898492856,
+    "max": 7.993163994704968
+  },
+  "ratio_to_cutoff": {
+    "min": 0.40034064264665825,
+    "q25": 0.6302123812049869,
+    "median": 0.7364206139241178,
+    "q75": 0.8371133888420248,
+    "max": 0.9913628469815595
+  },
+  "absolute_margin": {
+    "min": 0.06963966900107188,
+    "q25": 1.3133227652131838,
+    "median": 2.1251888397300114,
+    "q75": 2.981524967613564,
+    "max": 4.834935663444133
+  },
+  "relative_margin": {
+    "min": 0.008637153018440516,
+    "q25": 0.16288661115797523,
+    "median": 0.26357938607588216,
+    "q75": 0.36978761879501304,
+    "max": 0.5996593573533417
+  },
+  "descriptive_bins_not_new_criteria": {
+    "within_1_percent_below_cutoff": 1,
+    "within_5_percent_below_cutoff": 17,
+    "at_least_10_percent_below_cutoff": 132
+  },
+  "per_seed": [
+    {
+      "seed": 401,
+      "n": 14,
+      "L_RF": {
+        "min": 4.598235802285589,
+        "q25": 5.8969041623939304,
+        "median": 6.595476372754321,
+        "q75": 7.447446126483997,
+        "max": 7.921840522680519
+      },
+      "median_ratio": 0.818012771716524
+    },
+    {
+      "seed": 402,
+      "n": 9,
+      "L_RF": {
+        "min": 5.18704175537351,
+        "q25": 6.287902525079612,
+        "median": 6.862154234758582,
+        "q75": 7.00754845638456,
+        "max": 7.8624430069235585
+      },
+      "median_ratio": 0.8510878499557083
+    },
+    {
+      "seed": 403,
+      "n": 5,
+      "L_RF": {
+        "min": 5.361175730097696,
+        "q25": 5.520508413453664,
+        "median": 6.29360840340169,
+        "q75": 6.731863939231597,
+        "max": 6.74770463298667
+      },
+      "median_ratio": 0.7805731933833118
+    },
+    {
+      "seed": 404,
+      "n": 9,
+      "L_RF": {
+        "min": 5.2532288518933745,
+        "q25": 6.345325219873465,
+        "median": 6.525545736450282,
+        "q75": 6.773172924539441,
+        "max": 7.814418538258786
+      },
+      "median_ratio": 0.8093395310894669
+    },
+    {
+      "seed": 405,
+      "n": 13,
+      "L_RF": {
+        "min": 4.7387967143420155,
+        "q25": 5.739332909081391,
+        "median": 5.938660626788096,
+        "q75": 7.429951577330112,
+        "max": 7.993163994704968
+      },
+      "median_ratio": 0.7365503210155574
+    },
+    {
+      "seed": 406,
+      "n": 23,
+      "L_RF": {
+        "min": 3.227868000261907,
+        "q25": 3.890106998644942,
+        "median": 4.117506582979593,
+        "q75": 4.385291694862695,
+        "max": 5.2829350614657145
+      },
+      "median_ratio": 0.5106792568339678
+    },
+    {
+      "seed": 407,
+      "n": 17,
+      "L_RF": {
+        "min": 5.479476796316522,
+        "q25": 6.106245245723009,
+        "median": 7.247970995475912,
+        "q75": 7.745571045215532,
+        "max": 7.958038756707409
+      },
+      "median_ratio": 0.8989392893320692
+    },
+    {
+      "seed": 408,
+      "n": 20,
+      "L_RF": {
+        "min": 4.003682723437495,
+        "q25": 5.086586345805141,
+        "median": 6.068524297404805,
+        "q75": 6.719707721077167,
+        "max": 7.119942255723959
+      },
+      "median_ratio": 0.7526568363213038
+    },
+    {
+      "seed": 409,
+      "n": 21,
+      "L_RF": {
+        "min": 4.693317721606873,
+        "q25": 5.812815573011914,
+        "median": 6.2978197643333145,
+        "q75": 6.749480898492856,
+        "max": 7.770126383564279
+      },
+      "median_ratio": 0.781095513051169
+    },
+    {
+      "seed": 410,
+      "n": 22,
+      "L_RF": {
+        "min": 4.361598897478494,
+        "q25": 5.043726591548351,
+        "median": 5.287979431025008,
+        "q75": 5.718673836405534,
+        "max": 6.036112011919711
+      },
+      "median_ratio": 0.6558487161021115
+    }
+  ],
+  "limitations": [
+    "153 candidate-by-run records are not independent replicates.",
+    "Candidates were originally selected to pass this same fixed-data criterion.",
+    "Margins are descriptive, not confidence levels or evidence of truth.",
+    "No new significance tests, threshold changes or experiments."
+  ],
+  "source_sha256": {
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\joint_summary.json": "78e6124e9d022f93f00648206dd2ce1096f1425fbf0e35e98304ee2424d4b2b0",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed401\\paired_summary.json": "fcb578caeca5e68493f62fa9ec3e8179892de9ddabacce69223183a305bdaf0e",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed401\\arm_a_native_trajectory.jsonl": "e99b9739757257a613353385cce8b6d0dbd6466d02c8063ce2839d1eab854cb7",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed401\\arm_b_support_neutral_trajectory.jsonl": "a9fb8799f251da66783c6c424e1897d4161d74ffab5eb2a5552408c1e53c6c2d",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed402\\paired_summary.json": "7585c607576fe3b35b1140e1a2f082f056778f6ece20d2afe97036a59b64a704",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed402\\arm_a_native_trajectory.jsonl": "4119b250fa45d4dc15ce9cbaece541dff3a151099fb09d31b7236dc5de911230",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed402\\arm_b_support_neutral_trajectory.jsonl": "e92c54de437896d287dfbad91b307098b47317529c5122f691b58ae08120df26",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed403\\paired_summary.json": "440455c6a999fe2cf19d1d36be8c3ac7d2eaa0d6edfc7af40a23704bdf3e1a09",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed403\\arm_a_native_trajectory.jsonl": "fea51db7cbf6f5929bc5d31fa24a1c0c648bb42d418044124e74a1e51f0c6284",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed403\\arm_b_support_neutral_trajectory.jsonl": "679a839c811ea964dd2f2adcad2d98191141b9580f979e7aede529f94b54c591",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed404\\paired_summary.json": "c63a55ab292c68c590556e1d6c7808a7903c4808ba108f347531d6c3470095be",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed404\\arm_a_native_trajectory.jsonl": "fa17f13a25c6fec71bdf271c6c40facc83cbe7781ad2433e4fa288b806882e3e",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed404\\arm_b_support_neutral_trajectory.jsonl": "b6196085161e93a1d3f23a24c18bf5d5567bfc11f51bcccbb481d99557052031",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed405\\paired_summary.json": "ca5ff0d1765ed85d81711eef8cb9638ecfc3ef4553bacec602343992894e362b",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed405\\arm_a_native_trajectory.jsonl": "2a7ae9341966e8a3b3b4585b71b71eaddc7d1cebfe50dd81012aab5444462c7d",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed405\\arm_b_support_neutral_trajectory.jsonl": "b8342220b7600fe3983e1e3f10c62d7b6e62a985d2fcb2da6c4709b5e84a16a6",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed406\\paired_summary.json": "ab691958c6bddf87bb63a1c82a366d96fc8f817ce38a7e8f7fd0535459ecdf40",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed406\\arm_a_native_trajectory.jsonl": "4028021e0a151084a1222c1a668f1d3517f8d91b55dc0657f7ad2f8a48df56f5",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed406\\arm_b_support_neutral_trajectory.jsonl": "034e9ef7148b80c8e2ef49d9f5c3720962051b17e5a49ef27bef641a3d57f6f2",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed407\\paired_summary.json": "8c88e4312aeb149667ad83a29348bbea7d0ad0ff4b6c479428ca0714a0f46602",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed407\\arm_a_native_trajectory.jsonl": "858b9d9238a7a6e18f73d3b100112dd6b994fdf9ad54f1f2cc581d63b25645b2",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed407\\arm_b_support_neutral_trajectory.jsonl": "16415bc2946ba06ba492848ddfe1368f92c4e6fd8469596c978b075aeafea475",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed408\\paired_summary.json": "2c3e1004481fdaa3ea2c88dbe54990648c889f2428a366177df24da584b79016",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed408\\arm_a_native_trajectory.jsonl": "e2a8a7ee81a785ca78b4535d066b992cd4cb0f3459e06256cb5ebe2aadb2b2d7",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed408\\arm_b_support_neutral_trajectory.jsonl": "63595dbaba5e671f25969b800c9423cb4fcc930995b3e35ffab7ac4fcfd1069a",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed409\\paired_summary.json": "a8e97123ac5b3e7965ac75d69441f17cb4f0db9b56f2229dd5f83e1a75f0895a",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed409\\arm_a_native_trajectory.jsonl": "e60cbf08aecf8f735275073cdc53cb0283a8ad26979a0aa9fadfbed073be3c55",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed409\\arm_b_support_neutral_trajectory.jsonl": "f7b0fd8076b3e9879edb9dd7db30dea2d5f15a9ddad69e3f25862365af1f25be",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed410\\paired_summary.json": "725e82161afb97bffd38743b57e5ab1eb8c9376a1f3167f5fee3e9c8297b9608",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed410\\arm_a_native_trajectory.jsonl": "92ce3372c699eed11e1e75240d6c729eb91b2254ea314db3a96533d4f26ebef5",
+    "cofi_rf_identifiability\\stage0_real_rf\\native_na_control\\runs\\paired_support_neutral_confirmatory_v1\\seed410\\arm_b_support_neutral_trajectory.jsonl": "04fcdfeb40595de24ae506fc39cd5efb3febe603182b35f09a76d810c397bb43"
+  },
+  "candidate_selection_audit_sha256": "b61258366aa934f76dbf713d439ed481e929b8c5ab1a1298f7e62baa3919912d",
+  "records": [
+    {
+      "seed": 401,
+      "candidate_id": 2510,
+      "L_RF": 7.005725438335234,
+      "ratio_to_cutoff": 0.8688944603563714,
+      "absolute_margin": 1.0570782253708062,
+      "relative_margin": 0.13110553964362862
+    },
+    {
+      "seed": 401,
+      "candidate_id": 2564,
+      "L_RF": 5.56555029144706,
+      "ratio_to_cutoff": 0.6902748130281117,
+      "absolute_margin": 2.49725337225898,
+      "relative_margin": 0.3097251869718884
+    },
+    {
+      "seed": 401,
+      "candidate_id": 2719,
+      "L_RF": 6.423628593696836,
+      "ratio_to_cutoff": 0.7966991212513584,
+      "absolute_margin": 1.6391750700092045,
+      "relative_margin": 0.20330087874864156
+    },
+    {
+      "seed": 401,
+      "candidate_id": 2765,
+      "L_RF": 6.4397043087946635,
+      "ratio_to_cutoff": 0.7986929333009053,
+      "absolute_margin": 1.6230993549113766,
+      "relative_margin": 0.20130706669909465
+    },
+    {
+      "seed": 401,
+      "candidate_id": 2816,
+      "L_RF": 5.883333941866564,
+      "ratio_to_cutoff": 0.7296883549763024,
+      "absolute_margin": 2.1794697218394763,
+      "relative_margin": 0.2703116450236977
+    },
+    {
+      "seed": 401,
+      "candidate_id": 2817,
+      "L_RF": 6.841354537769218,
+      "ratio_to_cutoff": 0.8485081397386542,
+      "absolute_margin": 1.2214491259368216,
+      "relative_margin": 0.1514918602613457
+    },
+    {
+      "seed": 401,
+      "candidate_id": 2842,
+      "L_RF": 7.5946863558669175,
+      "ratio_to_cutoff": 0.9419411252755281,
+      "absolute_margin": 0.46811730783912253,
+      "relative_margin": 0.05805887472447196
+    },
+    {
+      "seed": 401,
+      "candidate_id": 2900,
+      "L_RF": 5.811380392108672,
+      "ratio_to_cutoff": 0.7207642198045898,
+      "absolute_margin": 2.2514232715973677,
+      "relative_margin": 0.2792357801954102
+    },
+    {
+      "seed": 401,
+      "candidate_id": 2925,
+      "L_RF": 7.858392454424768,
+      "ratio_to_cutoff": 0.9746476265816307,
+      "absolute_margin": 0.20441120928127177,
+      "relative_margin": 0.02535237341836932
+    },
+    {
+      "seed": 401,
+      "candidate_id": 2930,
+      "L_RF": 4.598235802285589,
+      "ratio_to_cutoff": 0.5703023407334249,
+      "absolute_margin": 3.464567861420451,
+      "relative_margin": 0.42969765926657505
+    },
+    {
+      "seed": 401,
+      "candidate_id": 2946,
+      "L_RF": 7.735751598858709,
+      "ratio_to_cutoff": 0.9594369305655395,
+      "absolute_margin": 0.3270520648473312,
+      "relative_margin": 0.04056306943446057
+    },
+    {
+      "seed": 401,
+      "candidate_id": 2949,
+      "L_RF": 7.921840522680519,
+      "ratio_to_cutoff": 0.9825168580428104,
+      "absolute_margin": 0.1409631410255212,
+      "relative_margin": 0.017483141957189613
+    },
+    {
+      "seed": 401,
+      "candidate_id": 2956,
+      "L_RF": 5.937614823976029,
+      "ratio_to_cutoff": 0.7364206139241178,
+      "absolute_margin": 2.1251888397300114,
+      "relative_margin": 0.26357938607588216
+    },
+    {
+      "seed": 401,
+      "candidate_id": 2982,
+      "L_RF": 6.75124843671398,
+      "ratio_to_cutoff": 0.8373326101321426,
+      "absolute_margin": 1.31155522699206,
+      "relative_margin": 0.16266738986785748
+    },
+    {
+      "seed": 402,
+      "candidate_id": 2609,
+      "L_RF": 7.00754845638456,
+      "ratio_to_cutoff": 0.8691205626063285,
+      "absolute_margin": 1.0552552073214798,
+      "relative_margin": 0.1308794373936715
+    },
+    {
+      "seed": 402,
+      "candidate_id": 2696,
+      "L_RF": 6.98776874980258,
+      "ratio_to_cutoff": 0.8666673580627258,
+      "absolute_margin": 1.07503491390346,
+      "relative_margin": 0.1333326419372742
+    },
+    {
+      "seed": 402,
+      "candidate_id": 2712,
+      "L_RF": 5.18704175537351,
+      "ratio_to_cutoff": 0.6433297859803403,
+      "absolute_margin": 2.87576190833253,
+      "relative_margin": 0.3566702140196597
+    },
+    {
+      "seed": 402,
+      "candidate_id": 2813,
+      "L_RF": 7.8624430069235585,
+      "ratio_to_cutoff": 0.9751500017686916,
+      "absolute_margin": 0.2003606567824816,
+      "relative_margin": 0.024849998231308353
+    },
+    {
+      "seed": 402,
+      "candidate_id": 2851,
+      "L_RF": 6.287902525079612,
+      "ratio_to_cutoff": 0.779865514198742,
+      "absolute_margin": 1.7749011386264284,
+      "relative_margin": 0.22013448580125802
+    },
+    {
+      "seed": 402,
+      "candidate_id": 2901,
+      "L_RF": 5.248975347478474,
+      "ratio_to_cutoff": 0.6510111825128829,
+      "absolute_margin": 2.813828316227566,
+      "relative_margin": 0.3489888174871171
+    },
+    {
+      "seed": 402,
+      "candidate_id": 2915,
+      "L_RF": 6.421072862173422,
+      "ratio_to_cutoff": 0.796382143233536,
+      "absolute_margin": 1.641730801532618,
+      "relative_margin": 0.20361785676646404
+    },
+    {
+      "seed": 402,
+      "candidate_id": 2916,
+      "L_RF": 7.749820696783225,
+      "ratio_to_cutoff": 0.9611818692384041,
+      "absolute_margin": 0.31298296692281546,
+      "relative_margin": 0.03881813076159589
+    },
+    {
+      "seed": 402,
+      "candidate_id": 2966,
+      "L_RF": 6.862154234758582,
+      "ratio_to_cutoff": 0.8510878499557083,
+      "absolute_margin": 1.2006494289474583,
+      "relative_margin": 0.14891215004429165
+    },
+    {
+      "seed": 403,
+      "candidate_id": 2501,
+      "L_RF": 6.74770463298667,
+      "ratio_to_cutoff": 0.8368930851387135,
+      "absolute_margin": 1.3150990307193702,
+      "relative_margin": 0.16310691486128653
+    },
+    {
+      "seed": 403,
+      "candidate_id": 2526,
+      "L_RF": 6.731863939231597,
+      "ratio_to_cutoff": 0.8349284219252983,
+      "absolute_margin": 1.330939724474443,
+      "relative_margin": 0.16507157807470177
+    },
+    {
+      "seed": 403,
+      "candidate_id": 2664,
+      "L_RF": 5.361175730097696,
+      "ratio_to_cutoff": 0.6649269849184757,
+      "absolute_margin": 2.7016279336083437,
+      "relative_margin": 0.3350730150815244
+    },
+    {
+      "seed": 403,
+      "candidate_id": 2821,
+      "L_RF": 6.29360840340169,
+      "ratio_to_cutoff": 0.7805731933833118,
+      "absolute_margin": 1.7691952603043504,
+      "relative_margin": 0.2194268066166882
+    },
+    {
+      "seed": 403,
+      "candidate_id": 2875,
+      "L_RF": 5.520508413453664,
+      "ratio_to_cutoff": 0.6846884339133443,
+      "absolute_margin": 2.5422952502523763,
+      "relative_margin": 0.31531156608665567
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2801,
+      "L_RF": 6.919231644855305,
+      "ratio_to_cutoff": 0.8581669520245894,
+      "absolute_margin": 1.143572018850735,
+      "relative_margin": 0.14183304797541058
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2822,
+      "L_RF": 6.345325219873465,
+      "ratio_to_cutoff": 0.7869874406636436,
+      "absolute_margin": 1.717478443832575,
+      "relative_margin": 0.21301255933635643
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2825,
+      "L_RF": 5.2532288518933745,
+      "ratio_to_cutoff": 0.6515387290825765,
+      "absolute_margin": 2.8095748118126656,
+      "relative_margin": 0.34846127091742357
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2918,
+      "L_RF": 7.814418538258786,
+      "ratio_to_cutoff": 0.9691937028597959,
+      "absolute_margin": 0.24838512544725422,
+      "relative_margin": 0.030806297140204063
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2922,
+      "L_RF": 6.773172924539441,
+      "ratio_to_cutoff": 0.8400518240358807,
+      "absolute_margin": 1.2896307391665989,
+      "relative_margin": 0.15994817596411923
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2926,
+      "L_RF": 6.415306105384154,
+      "ratio_to_cutoff": 0.7956669135157113,
+      "absolute_margin": 1.647497558321886,
+      "relative_margin": 0.2043330864842887
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2943,
+      "L_RF": 6.525545736450282,
+      "ratio_to_cutoff": 0.8093395310894669,
+      "absolute_margin": 1.5372579272557578,
+      "relative_margin": 0.1906604689105331
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2962,
+      "L_RF": 5.495574511638696,
+      "ratio_to_cutoff": 0.6815959734175983,
+      "absolute_margin": 2.567229152067344,
+      "relative_margin": 0.3184040265824017
+    },
+    {
+      "seed": 404,
+      "candidate_id": 2973,
+      "L_RF": 6.60235929915247,
+      "ratio_to_cutoff": 0.8188664358618052,
+      "absolute_margin": 1.4604443645535703,
+      "relative_margin": 0.18113356413819484
+    },
+    {
+      "seed": 405,
+      "candidate_id": 2620,
+      "L_RF": 5.161594535821359,
+      "ratio_to_cutoff": 0.6401736605662117,
+      "absolute_margin": 2.901209127884681,
+      "relative_margin": 0.3598263394337883
+    },
+    {
+      "seed": 405,
+      "candidate_id": 2678,
+      "L_RF": 5.938660626788096,
+      "ratio_to_cutoff": 0.7365503210155574,
+      "absolute_margin": 2.1241430369179444,
+      "relative_margin": 0.26344967898444266
+    },
+    {
+      "seed": 405,
+      "candidate_id": 2748,
+      "L_RF": 7.993163994704968,
+      "ratio_to_cutoff": 0.9913628469815595,
+      "absolute_margin": 0.06963966900107188,
+      "relative_margin": 0.008637153018440516
+    },
+    {
+      "seed": 405,
+      "candidate_id": 2800,
+      "L_RF": 4.7387967143420155,
+      "ratio_to_cutoff": 0.58773559570516,
+      "absolute_margin": 3.3240069493640245,
+      "relative_margin": 0.41226440429484007
+    },
+    {
+      "seed": 405,
+      "candidate_id": 2806,
+      "L_RF": 7.429951577330112,
+      "ratio_to_cutoff": 0.9215096742061756,
+      "absolute_margin": 0.6328520863759284,
+      "relative_margin": 0.07849032579382444
+    },
+    {
+      "seed": 405,
+      "candidate_id": 2812,
+      "L_RF": 7.825562659059894,
+      "ratio_to_cutoff": 0.9705758673358172,
+      "absolute_margin": 0.23724100464614573,
+      "relative_margin": 0.02942413266418281
+    },
+    {
+      "seed": 405,
+      "candidate_id": 2877,
+      "L_RF": 5.088499419732155,
+      "ratio_to_cutoff": 0.6311079411046013,
+      "absolute_margin": 2.9743042439738847,
+      "relative_margin": 0.36889205889539867
+    },
+    {
+      "seed": 405,
+      "candidate_id": 2913,
+      "L_RF": 6.650905936612254,
+      "ratio_to_cutoff": 0.8248874974533595,
+      "absolute_margin": 1.4118977270937858,
+      "relative_margin": 0.17511250254664043
+    },
+    {
+      "seed": 405,
+      "candidate_id": 2914,
+      "L_RF": 5.753256325797462,
+      "ratio_to_cutoff": 0.7135553047998936,
+      "absolute_margin": 2.309547337908578,
+      "relative_margin": 0.2864446952001064
+    },
+    {
+      "seed": 405,
+      "candidate_id": 2918,
+      "L_RF": 6.422684741011437,
+      "ratio_to_cutoff": 0.7965820586606313,
+      "absolute_margin": 1.6401189226946027,
+      "relative_margin": 0.20341794133936875
+    },
+    {
+      "seed": 405,
+      "candidate_id": 2933,
+      "L_RF": 5.857553459839888,
+      "ratio_to_cutoff": 0.7264908962383791,
+      "absolute_margin": 2.205250203866152,
+      "relative_margin": 0.27350910376162085
+    },
+    {
+      "seed": 405,
+      "candidate_id": 2935,
+      "L_RF": 5.739332909081391,
+      "ratio_to_cutoff": 0.7118284344336032,
+      "absolute_margin": 2.3234707546246494,
+      "relative_margin": 0.2881715655663968
+    },
+    {
+      "seed": 405,
+      "candidate_id": 2942,
+      "L_RF": 7.969959477806411,
+      "ratio_to_cutoff": 0.9884848757613237,
+      "absolute_margin": 0.0928441858996294,
+      "relative_margin": 0.011515124238676287
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2401,
+      "L_RF": 4.375683875451372,
+      "ratio_to_cutoff": 0.5427000405762211,
+      "absolute_margin": 3.687119788254668,
+      "relative_margin": 0.4572999594237789
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2526,
+      "L_RF": 4.0860257367200115,
+      "ratio_to_cutoff": 0.5067748028037538,
+      "absolute_margin": 3.9767779269860286,
+      "relative_margin": 0.4932251971962463
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2627,
+      "L_RF": 4.0720279638147705,
+      "ratio_to_cutoff": 0.5050387103117275,
+      "absolute_margin": 3.9907756998912696,
+      "relative_margin": 0.4949612896882724
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2707,
+      "L_RF": 4.557848927060925,
+      "ratio_to_cutoff": 0.5652933045582714,
+      "absolute_margin": 3.5049547366451153,
+      "relative_margin": 0.43470669544172863
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2709,
+      "L_RF": 3.227868000261907,
+      "ratio_to_cutoff": 0.40034064264665825,
+      "absolute_margin": 4.834935663444133,
+      "relative_margin": 0.5996593573533417
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2722,
+      "L_RF": 4.064496431530019,
+      "ratio_to_cutoff": 0.504104601954525,
+      "absolute_margin": 3.998307232176021,
+      "relative_margin": 0.49589539804547506
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2769,
+      "L_RF": 4.239607887621405,
+      "ratio_to_cutoff": 0.5258230343255914,
+      "absolute_margin": 3.823195776084635,
+      "relative_margin": 0.4741769656744086
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2773,
+      "L_RF": 3.416517067223487,
+      "ratio_to_cutoff": 0.4237380952983663,
+      "absolute_margin": 4.646286596482553,
+      "relative_margin": 0.5762619047016337
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2808,
+      "L_RF": 3.3962549153585933,
+      "ratio_to_cutoff": 0.42122505483378175,
+      "absolute_margin": 4.666548748347447,
+      "relative_margin": 0.5787749451662182
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2822,
+      "L_RF": 4.000489891057515,
+      "ratio_to_cutoff": 0.49616610523028704,
+      "absolute_margin": 4.062313772648525,
+      "relative_margin": 0.503833894769713
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2829,
+      "L_RF": 4.394899514274018,
+      "ratio_to_cutoff": 0.5450832858621187,
+      "absolute_margin": 3.6679041494320224,
+      "relative_margin": 0.45491671413788126
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2904,
+      "L_RF": 3.3315151399302225,
+      "ratio_to_cutoff": 0.4131956176642038,
+      "absolute_margin": 4.7312885237758175,
+      "relative_margin": 0.5868043823357962
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2907,
+      "L_RF": 3.826330419593829,
+      "ratio_to_cutoff": 0.4745657440249598,
+      "absolute_margin": 4.2364732441122115,
+      "relative_margin": 0.5254342559750402
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2914,
+      "L_RF": 3.9538835776960557,
+      "ratio_to_cutoff": 0.4903856949281916,
+      "absolute_margin": 4.108920086009984,
+      "relative_margin": 0.5096143050718084
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2929,
+      "L_RF": 4.332819177144808,
+      "ratio_to_cutoff": 0.5373836890818252,
+      "absolute_margin": 3.729984486561232,
+      "relative_margin": 0.4626163109181748
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2930,
+      "L_RF": 4.296996884147244,
+      "ratio_to_cutoff": 0.5329407813177661,
+      "absolute_margin": 3.7658067795587957,
+      "relative_margin": 0.4670592186822339
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2931,
+      "L_RF": 4.7809005518601895,
+      "ratio_to_cutoff": 0.5929575804234163,
+      "absolute_margin": 3.2819031118458506,
+      "relative_margin": 0.40704241957658377
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2932,
+      "L_RF": 5.2829350614657145,
+      "ratio_to_cutoff": 0.6552230814259257,
+      "absolute_margin": 2.7798686022403256,
+      "relative_margin": 0.34477691857407433
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2934,
+      "L_RF": 4.637524030145827,
+      "ratio_to_cutoff": 0.5751751157009081,
+      "absolute_margin": 3.425279633560213,
+      "relative_margin": 0.42482488429909193
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2935,
+      "L_RF": 4.155554112030941,
+      "ratio_to_cutoff": 0.5153981524735349,
+      "absolute_margin": 3.9072495516750987,
+      "relative_margin": 0.4846018475264651
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2941,
+      "L_RF": 3.277264742802142,
+      "ratio_to_cutoff": 0.4064671396569464,
+      "absolute_margin": 4.785538920903898,
+      "relative_margin": 0.5935328603430536
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2943,
+      "L_RF": 4.57838239557722,
+      "ratio_to_cutoff": 0.5678399954331497,
+      "absolute_margin": 3.48442126812882,
+      "relative_margin": 0.43216000456685033
+    },
+    {
+      "seed": 406,
+      "candidate_id": 2950,
+      "L_RF": 4.117506582979593,
+      "ratio_to_cutoff": 0.5106792568339678,
+      "absolute_margin": 3.945297080726447,
+      "relative_margin": 0.48932074316603225
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2491,
+      "L_RF": 7.915884405420748,
+      "ratio_to_cutoff": 0.981778142639559,
+      "absolute_margin": 0.1469192582852923,
+      "relative_margin": 0.018221857360440966
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2706,
+      "L_RF": 6.34257720651575,
+      "ratio_to_cutoff": 0.7866466146343449,
+      "absolute_margin": 1.7202264571902903,
+      "relative_margin": 0.21335338536565507
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2714,
+      "L_RF": 6.58218618899503,
+      "ratio_to_cutoff": 0.8163644389139882,
+      "absolute_margin": 1.4806174747110097,
+      "relative_margin": 0.18363556108601173
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2715,
+      "L_RF": 7.546436988857882,
+      "ratio_to_cutoff": 0.9359569330489176,
+      "absolute_margin": 0.5163666748481583,
+      "relative_margin": 0.06404306695108239
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2741,
+      "L_RF": 7.745571045215532,
+      "ratio_to_cutoff": 0.9606548005232347,
+      "absolute_margin": 0.3172326184905083,
+      "relative_margin": 0.03934519947676531
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2785,
+      "L_RF": 6.082552777239739,
+      "ratio_to_cutoff": 0.7543967372813236,
+      "absolute_margin": 1.980250886466301,
+      "relative_margin": 0.24560326271867639
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2817,
+      "L_RF": 6.009448075993705,
+      "ratio_to_cutoff": 0.7453298290078271,
+      "absolute_margin": 2.0533555877123355,
+      "relative_margin": 0.25467017099217293
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2818,
+      "L_RF": 7.692686144432644,
+      "ratio_to_cutoff": 0.95409568002512,
+      "absolute_margin": 0.3701175192733963,
+      "relative_margin": 0.04590431997487994
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2840,
+      "L_RF": 6.106245245723009,
+      "ratio_to_cutoff": 0.7573352273489808,
+      "absolute_margin": 1.9565584179830307,
+      "relative_margin": 0.24266477265101918
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2902,
+      "L_RF": 7.958038756707409,
+      "ratio_to_cutoff": 0.9870063923954616,
+      "absolute_margin": 0.10476490699863117,
+      "relative_margin": 0.012993607604538436
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2919,
+      "L_RF": 7.1933657143701595,
+      "ratio_to_cutoff": 0.8921667963651931,
+      "absolute_margin": 0.8694379493358806,
+      "relative_margin": 0.1078332036348069
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2925,
+      "L_RF": 7.8440761229913605,
+      "ratio_to_cutoff": 0.9728720244424082,
+      "absolute_margin": 0.2187275407146796,
+      "relative_margin": 0.027127975557591864
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2931,
+      "L_RF": 5.800310527714339,
+      "ratio_to_cutoff": 0.7193912650786596,
+      "absolute_margin": 2.2624931359917007,
+      "relative_margin": 0.2806087349213404
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2945,
+      "L_RF": 7.247970995475912,
+      "ratio_to_cutoff": 0.8989392893320692,
+      "absolute_margin": 0.8148326682301281,
+      "relative_margin": 0.10106071066793075
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2961,
+      "L_RF": 7.871624144144398,
+      "ratio_to_cutoff": 0.9762887045827224,
+      "absolute_margin": 0.1911795195616417,
+      "relative_margin": 0.023711295417277553
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2963,
+      "L_RF": 5.479476796316522,
+      "ratio_to_cutoff": 0.6795994327608245,
+      "absolute_margin": 2.583326867389518,
+      "relative_margin": 0.32040056723917554
+    },
+    {
+      "seed": 407,
+      "candidate_id": 2965,
+      "L_RF": 7.7404820451025325,
+      "ratio_to_cutoff": 0.9600236304829785,
+      "absolute_margin": 0.3223216186035076,
+      "relative_margin": 0.03997636951702153
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2208,
+      "L_RF": 7.119942255723959,
+      "ratio_to_cutoff": 0.8830603537791347,
+      "absolute_margin": 0.9428614079820807,
+      "relative_margin": 0.11693964622086528
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2500,
+      "L_RF": 4.003682723437495,
+      "ratio_to_cutoff": 0.4965621005333046,
+      "absolute_margin": 4.059120940268545,
+      "relative_margin": 0.5034378994666954
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2700,
+      "L_RF": 4.430741194357536,
+      "ratio_to_cutoff": 0.5495285981354233,
+      "absolute_margin": 3.6320624693485044,
+      "relative_margin": 0.4504714018645766
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2803,
+      "L_RF": 4.836020267052216,
+      "ratio_to_cutoff": 0.5997938767653628,
+      "absolute_margin": 3.2267833966538237,
+      "relative_margin": 0.40020612323463717
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2807,
+      "L_RF": 6.004414672662438,
+      "ratio_to_cutoff": 0.7447055544327281,
+      "absolute_margin": 2.0583889910436017,
+      "relative_margin": 0.2552944455672719
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2808,
+      "L_RF": 5.111173516112764,
+      "ratio_to_cutoff": 0.6339201262112131,
+      "absolute_margin": 2.951630147593276,
+      "relative_margin": 0.3660798737887869
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2820,
+      "L_RF": 5.958922101532498,
+      "ratio_to_cutoff": 0.7390632774993681,
+      "absolute_margin": 2.103881562173542,
+      "relative_margin": 0.260936722500632
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2826,
+      "L_RF": 6.719381026356397,
+      "ratio_to_cutoff": 0.8333802119730467,
+      "absolute_margin": 1.3434226373496427,
+      "relative_margin": 0.1666197880269533
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2834,
+      "L_RF": 5.333138918646248,
+      "ratio_to_cutoff": 0.6614496819081527,
+      "absolute_margin": 2.729664745059792,
+      "relative_margin": 0.3385503180918474
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2837,
+      "L_RF": 6.342590364547599,
+      "ratio_to_cutoff": 0.7866482465768302,
+      "absolute_margin": 1.7202132991584413,
+      "relative_margin": 0.21335175342316984
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2858,
+      "L_RF": 6.25798818329352,
+      "ratio_to_cutoff": 0.776155347979422,
+      "absolute_margin": 1.80481548041252,
+      "relative_margin": 0.22384465202057802
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2893,
+      "L_RF": 6.960755547942298,
+      "ratio_to_cutoff": 0.8633170095999597,
+      "absolute_margin": 1.1020481157637425,
+      "relative_margin": 0.1366829904000403
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2902,
+      "L_RF": 5.495172418589538,
+      "ratio_to_cutoff": 0.6815461032897955,
+      "absolute_margin": 2.5676312451165018,
+      "relative_margin": 0.3184538967102045
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2908,
+      "L_RF": 4.510879557028222,
+      "ratio_to_cutoff": 0.5594678656673144,
+      "absolute_margin": 3.551924106677818,
+      "relative_margin": 0.4405321343326855
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2913,
+      "L_RF": 5.01282483488227,
+      "ratio_to_cutoff": 0.6217222995825924,
+      "absolute_margin": 3.04997882882377,
+      "relative_margin": 0.3782777004174076
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2914,
+      "L_RF": 6.132633922147171,
+      "ratio_to_cutoff": 0.7606081182098793,
+      "absolute_margin": 1.9301697415588688,
+      "relative_margin": 0.23939188179012075
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2922,
+      "L_RF": 6.616820171237056,
+      "ratio_to_cutoff": 0.8206599648484628,
+      "absolute_margin": 1.4459834924689838,
+      "relative_margin": 0.17934003515153715
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2925,
+      "L_RF": 6.720687805239478,
+      "ratio_to_cutoff": 0.8335422869704775,
+      "absolute_margin": 1.3421158584665625,
+      "relative_margin": 0.16645771302952247
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2949,
+      "L_RF": 6.769729732699069,
+      "ratio_to_cutoff": 0.8396247775661929,
+      "absolute_margin": 1.2930739310069708,
+      "relative_margin": 0.16037522243380709
+    },
+    {
+      "seed": 408,
+      "candidate_id": 2977,
+      "L_RF": 6.950898082381314,
+      "ratio_to_cutoff": 0.8620944242596572,
+      "absolute_margin": 1.1119055813247263,
+      "relative_margin": 0.13790557574034273
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2574,
+      "L_RF": 7.770126383564279,
+      "ratio_to_cutoff": 0.9637003091791482,
+      "absolute_margin": 0.29267728014176075,
+      "relative_margin": 0.03629969082085184
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2581,
+      "L_RF": 5.898084912466579,
+      "ratio_to_cutoff": 0.7315178638190408,
+      "absolute_margin": 2.1647187512394614,
+      "relative_margin": 0.2684821361809592
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2614,
+      "L_RF": 5.081278696092476,
+      "ratio_to_cutoff": 0.6302123812049869,
+      "absolute_margin": 2.981524967613564,
+      "relative_margin": 0.36978761879501304
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2633,
+      "L_RF": 6.636982275920834,
+      "ratio_to_cutoff": 0.8231605968277005,
+      "absolute_margin": 1.4258213877852057,
+      "relative_margin": 0.1768394031722995
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2644,
+      "L_RF": 6.806639369308055,
+      "ratio_to_cutoff": 0.8442025445748491,
+      "absolute_margin": 1.2561642943979852,
+      "relative_margin": 0.1557974554251509
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2664,
+      "L_RF": 6.837679464532589,
+      "ratio_to_cutoff": 0.8480523338688956,
+      "absolute_margin": 1.2251241991734512,
+      "relative_margin": 0.15194766613110444
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2705,
+      "L_RF": 5.518967287636087,
+      "ratio_to_cutoff": 0.6844972937241676,
+      "absolute_margin": 2.5438363760699527,
+      "relative_margin": 0.3155027062758325
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2711,
+      "L_RF": 6.406639385821464,
+      "ratio_to_cutoff": 0.7945920120392308,
+      "absolute_margin": 1.6561642778845762,
+      "relative_margin": 0.20540798796076923
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2713,
+      "L_RF": 6.990512805340468,
+      "ratio_to_cutoff": 0.8670076932181309,
+      "absolute_margin": 1.0722908583655721,
+      "relative_margin": 0.13299230678186913
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2814,
+      "L_RF": 6.021981613488586,
+      "ratio_to_cutoff": 0.7468843177461925,
+      "absolute_margin": 2.0408220502174537,
+      "relative_margin": 0.2531156822538076
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2911,
+      "L_RF": 7.273683329808495,
+      "ratio_to_cutoff": 0.902128295961156,
+      "absolute_margin": 0.7891203338975448,
+      "relative_margin": 0.09787170403884402
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2913,
+      "L_RF": 5.812815573011914,
+      "ratio_to_cutoff": 0.7209422200341752,
+      "absolute_margin": 2.249988090694126,
+      "relative_margin": 0.2790577799658248
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2926,
+      "L_RF": 6.749480898492856,
+      "ratio_to_cutoff": 0.8371133888420248,
+      "absolute_margin": 1.3133227652131838,
+      "relative_margin": 0.16288661115797523
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2929,
+      "L_RF": 5.052263783920731,
+      "ratio_to_cutoff": 0.6266137679456373,
+      "absolute_margin": 3.010539879785309,
+      "relative_margin": 0.37338623205436267
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2930,
+      "L_RF": 6.230227238306291,
+      "ratio_to_cutoff": 0.7727122596760081,
+      "absolute_margin": 1.8325764253997487,
+      "relative_margin": 0.22728774032399188
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2936,
+      "L_RF": 4.693317721606873,
+      "ratio_to_cutoff": 0.5820950028503616,
+      "absolute_margin": 3.3694859420991667,
+      "relative_margin": 0.4179049971496384
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2940,
+      "L_RF": 6.538704302773193,
+      "ratio_to_cutoff": 0.8109715398635542,
+      "absolute_margin": 1.5240993609328468,
+      "relative_margin": 0.18902846013644586
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2959,
+      "L_RF": 6.620725050078317,
+      "ratio_to_cutoff": 0.8211442726654617,
+      "absolute_margin": 1.4420786136277233,
+      "relative_margin": 0.17885572733453822
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2961,
+      "L_RF": 5.963224791791557,
+      "ratio_to_cutoff": 0.7395969244091182,
+      "absolute_margin": 2.099578871914483,
+      "relative_margin": 0.2604030755908818
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2971,
+      "L_RF": 5.179340709619883,
+      "ratio_to_cutoff": 0.6423746534886124,
+      "absolute_margin": 2.8834629540861574,
+      "relative_margin": 0.3576253465113875
+    },
+    {
+      "seed": 409,
+      "candidate_id": 2980,
+      "L_RF": 6.2978197643333145,
+      "ratio_to_cutoff": 0.781095513051169,
+      "absolute_margin": 1.7649838993727256,
+      "relative_margin": 0.218904486948831
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2403,
+      "L_RF": 5.70576318464346,
+      "ratio_to_cutoff": 0.7076649044956187,
+      "absolute_margin": 2.3570404790625803,
+      "relative_margin": 0.29233509550438125
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2622,
+      "L_RF": 5.702071488629779,
+      "ratio_to_cutoff": 0.7072070369637206,
+      "absolute_margin": 2.3607321750762607,
+      "relative_margin": 0.2927929630362794
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2701,
+      "L_RF": 5.115610968783109,
+      "ratio_to_cutoff": 0.6344704872091275,
+      "absolute_margin": 2.947192694922931,
+      "relative_margin": 0.36552951279087253
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2713,
+      "L_RF": 4.626733270544078,
+      "ratio_to_cutoff": 0.5738367773198901,
+      "absolute_margin": 3.4360703931619625,
+      "relative_margin": 0.4261632226801098
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2724,
+      "L_RF": 5.076321687408149,
+      "ratio_to_cutoff": 0.629597581578073,
+      "absolute_margin": 2.986481976297891,
+      "relative_margin": 0.37040241842192706
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2725,
+      "L_RF": 5.722977386992892,
+      "ratio_to_cutoff": 0.7097999189480877,
+      "absolute_margin": 2.339826276713148,
+      "relative_margin": 0.29020008105191225
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2768,
+      "L_RF": 5.817227870837124,
+      "ratio_to_cutoff": 0.7214894611688033,
+      "absolute_margin": 2.245575792868916,
+      "relative_margin": 0.2785105388311967
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2811,
+      "L_RF": 5.342170652513376,
+      "ratio_to_cutoff": 0.6625698547715678,
+      "absolute_margin": 2.720633011192664,
+      "relative_margin": 0.3374301452284322
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2815,
+      "L_RF": 5.201471718174794,
+      "ratio_to_cutoff": 0.6451194814018273,
+      "absolute_margin": 2.861331945531246,
+      "relative_margin": 0.35488051859817266
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2820,
+      "L_RF": 5.101095056095362,
+      "ratio_to_cutoff": 0.6326701317381033,
+      "absolute_margin": 2.961708607610678,
+      "relative_margin": 0.36732986826189673
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2842,
+      "L_RF": 5.851086552351927,
+      "ratio_to_cutoff": 0.7256888293944262,
+      "absolute_margin": 2.2117171113541128,
+      "relative_margin": 0.27431117060557375
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2846,
+      "L_RF": 5.2698889223807965,
+      "ratio_to_cutoff": 0.6536050165902849,
+      "absolute_margin": 2.7929147413252435,
+      "relative_margin": 0.3463949834097151
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2848,
+      "L_RF": 5.6633614490130055,
+      "ratio_to_cutoff": 0.7024059725658581,
+      "absolute_margin": 2.3994422146930345,
+      "relative_margin": 0.2975940274341418
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2850,
+      "L_RF": 6.036112011919711,
+      "ratio_to_cutoff": 0.7486368592963148,
+      "absolute_margin": 2.0266916517863294,
+      "relative_margin": 0.25136314070368515
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2902,
+      "L_RF": 5.920988029273392,
+      "ratio_to_cutoff": 0.7343584534900891,
+      "absolute_margin": 2.141815634432648,
+      "relative_margin": 0.2656415465099109
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2915,
+      "L_RF": 4.361598897478494,
+      "ratio_to_cutoff": 0.5409531323591352,
+      "absolute_margin": 3.701204766227546,
+      "relative_margin": 0.4590468676408648
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2918,
+      "L_RF": 5.306069939669218,
+      "ratio_to_cutoff": 0.658092415613938,
+      "absolute_margin": 2.756733724036822,
+      "relative_margin": 0.34190758438606195
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2919,
+      "L_RF": 5.9539035441256924,
+      "ratio_to_cutoff": 0.7384408442098913,
+      "absolute_margin": 2.1089001195803476,
+      "relative_margin": 0.26155915579010874
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2964,
+      "L_RF": 4.8045756184907225,
+      "ratio_to_cutoff": 0.5958939122030309,
+      "absolute_margin": 3.2582280452153176,
+      "relative_margin": 0.40410608779696916
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2969,
+      "L_RF": 4.880205432570547,
+      "ratio_to_cutoff": 0.6052740009704487,
+      "absolute_margin": 3.1825982311354934,
+      "relative_margin": 0.39472599902955136
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2976,
+      "L_RF": 4.540105110855015,
+      "ratio_to_cutoff": 0.5630926040394454,
+      "absolute_margin": 3.5226985528510255,
+      "relative_margin": 0.43690739596055467
+    },
+    {
+      "seed": 410,
+      "candidate_id": 2987,
+      "L_RF": 5.0328615595950845,
+      "ratio_to_cutoff": 0.624207381143366,
+      "absolute_margin": 3.0299421041109555,
+      "relative_margin": 0.37579261885663395
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "module": "final_eligibility_open_decision_fullgate",
+  "method": "readonly_recompute_from_stage2_formal",
+  "lock_ok": true,
+  "lock_error": null,
+  "truth_selected": {
+    "native": 37,
+    "open": 40,
+    "decision_only": 39,
+    "full_gate": 40
+  },
+  "rmse_mean": {
+    "native": 0.1354327317765893,
+    "open": 0.08467739393293651,
+    "decision_only": 0.10334176358232412,
+    "full_gate": 0.08297215713044082
+  },
+  "rmse_median": {
+    "native": 0.07434531141261147,
+    "open": 0.07434531141261147,
+    "decision_only": 0.07434531141261147
+  },
+  "selection_diff": {
+    "open_ne_native": [
+      208,
+      224,
+      232
+    ],
+    "open_ne_decision": [
+      208
+    ],
+    "decision_ne_native": [
+      224,
+      232
+    ],
+    "open_eq_decision_all": false
+  },
+  "full_gate_vs_native_rmse": {
+    "better": 8,
+    "worse": 5,
+    "same": 27
+  },
+  "expected": {
+    "native": 37,
+    "open": 40,
+    "decision_only": 39,
+    "full_gate": 40,
+    "open_ne_native": [
+      208,
+      224,
+      232
+    ],
+    "decision_ne_native": [
+      224,
+      232
+    ],
+    "full_gate_better_worse_same": [
+      8,
+      5,
+      27
+    ]
+  },
+  "status": "PASS"
+}

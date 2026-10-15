@@ -1,0 +1,209 @@
+{
+  "n_seeds": 20,
+  "runtime_s": 1023.8776919000011,
+  "E1_seed_unsupported_frac": 1.0,
+  "E1_seed_k": 20,
+  "E1_seed_n": 20,
+  "E1_seed_ci95": [
+    0.8315665290169145,
+    1.0
+  ],
+  "E1_event_unsupported_frac": 1.0,
+  "E1_event_k": 78,
+  "E1_event_n": 78,
+  "E1_event_ci95": [
+    0.9538075796719513,
+    1.0
+  ],
+  "total_auditable_elim_events": 78,
+  "unsupported_elim_events": 78,
+  "E2_frac_dFI_ge1": 1.0,
+  "E2_frac_dFI_ge1_k": 78,
+  "E2_frac_dFI_ge1_n": 78,
+  "E2_frac_dFI_ge1_ci95": [
+    0.9538075796719513,
+    1.0
+  ],
+  "E2_median_finite_dFI": 1.0,
+  "E2_n_dFI_finite": 74,
+  "E2_n_dFI_censored": 4,
+  "E2_median_dCross": 9.0,
+  "E2_n_dCross_finite": 78,
+  "E2_frac_dCross_ge1": 0.9743589743589743,
+  "E3_rescue_frac": 0.9102564102564102,
+  "E3_rescue_k": 71,
+  "E3_rescue_n": 78,
+  "E3_rescue_ci95": [
+    0.8237965278331271,
+    0.9631531037254115
+  ],
+  "neutral_converged_k": 20,
+  "neutral_converged_frac": 1.0,
+  "native_final_truth_frac": 0.9,
+  "truth_elim_native_frac": 0.1,
+  "round0_all_compat_k": 20,
+  "round0_all_compat_frac": 1.0,
+  "neutral_truth_excluded_count": 0,
+  "native_truth_excluded_count": 1,
+  "neutral_max_abs_gain": 0.0,
+  "native_mean_gain": 0.5778236432068273,
+  "gain_profile": {
+    "native_t1": {
+      "mean_g": 0.9021029891788575,
+      "n": 80
+    },
+    "native_t2": {
+      "mean_g": 0.7104978095469368,
+      "n": 64
+    },
+    "native_t3": {
+      "mean_g": 0.35696037958685267,
+      "n": 53
+    },
+    "native_t4": {
+      "mean_g": 0.1792989551299079,
+      "n": 37
+    },
+    "native_t5": {
+      "mean_g": 1.3355733866324127,
+      "n": 26
+    },
+    "native_t6": {
+      "mean_g": 0.0,
+      "n": 19
+    },
+    "native_t7": {
+      "mean_g": 0.12786639261444005,
+      "n": 16
+    },
+    "native_t8": {
+      "mean_g": 0.0932648537569179,
+      "n": 9
+    },
+    "native_t9": {
+      "mean_g": 0.0,
+      "n": 6
+    },
+    "native_t10": {
+      "mean_g": 1.1667643511551895,
+      "n": 5
+    },
+    "native_t11": {
+      "mean_g": 1.9290697770659045e-07,
+      "n": 3
+    },
+    "native_t12": {
+      "mean_g": 0.0,
+      "n": 3
+    },
+    "native_t13": {
+      "mean_g": 0.0,
+      "n": 2
+    },
+    "neutral_t1": {
+      "mean_g": 0.0,
+      "n": 80
+    },
+    "neutral_t2": {
+      "mean_g": 0.0,
+      "n": 80
+    },
+    "neutral_t3": {
+      "mean_g": 0.0,
+      "n": 80
+    },
+    "neutral_t4": {
+      "mean_g": 0.0,
+      "n": 80
+    },
+    "neutral_t5": {
+      "mean_g": 0.0,
+      "n": 80
+    },
+    "neutral_t6": {
+      "mean_g": 0.0,
+      "n": 74
+    },
+    "neutral_t7": {
+      "mean_g": 0.0,
+      "n": 62
+    },
+    "neutral_t8": {
+      "mean_g": 0.0,
+      "n": 52
+    },
+    "neutral_t9": {
+      "mean_g": 0.0,
+      "n": 34
+    },
+    "neutral_t10": {
+      "mean_g": 0.0,
+      "n": 26
+    },
+    "neutral_t11": {
+      "mean_g": 0.0,
+      "n": 18
+    },
+    "neutral_t12": {
+      "mean_g": 0.0,
+      "n": 16
+    },
+    "neutral_t13": {
+      "mean_g": 0.0,
+      "n": 15
+    },
+    "neutral_t14": {
+      "mean_g": 0.0,
+      "n": 15
+    },
+    "neutral_t15": {
+      "mean_g": 0.0,
+      "n": 15
+    },
+    "neutral_t16": {
+      "mean_g": 0.0,
+      "n": 15
+    },
+    "neutral_t17": {
+      "mean_g": 0.0,
+      "n": 15
+    },
+    "neutral_t18": {
+      "mean_g": 0.0,
+      "n": 14
+    },
+    "neutral_t19": {
+      "mean_g": 0.0,
+      "n": 13
+    },
+    "neutral_t20": {
+      "mean_g": 0.0,
+      "n": 5
+    },
+    "neutral_t21": {
+      "mean_g": 0.0,
+      "n": 1
+    }
+  },
+  "gain_delta_primary": 0.05,
+  "gain_by_delta": {
+    "0.01": {
+      "mean_g": 0.2217440008819176,
+      "max_abs_g": 62.824824634481864,
+      "n": 1113
+    },
+    "0.025": {
+      "mean_g": 0.18021666234934974,
+      "max_abs_g": 25.12992985379275,
+      "n": 1113
+    },
+    "0.05": {
+      "mean_g": 0.1676882630330685,
+      "max_abs_g": 12.669598801466778,
+      "n": 1113
+    }
+  },
+  "focal_n": 20,
+  "matching_ok": true,
+  "matching_detail": []
+}

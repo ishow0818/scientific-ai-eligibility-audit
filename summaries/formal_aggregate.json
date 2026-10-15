@@ -1,0 +1,168 @@
+{
+  "n_seeds": 40,
+  "arms": {
+    "native": {
+      "failure_k": 0,
+      "failure_rate_wilson95": [
+        0.0,
+        0.0,
+        0.08762453925039232
+      ],
+      "truth_selected_k": 37,
+      "truth_selected_rate_wilson95": [
+        0.925,
+        0.8013546984090248,
+        0.9741644432281419
+      ],
+      "truth_excluded_operational_k": 1,
+      "truth_eligibility_lost_k": 3,
+      "truth_eligibility_lost_rate_wilson95": [
+        0.075,
+        0.025835556771858226,
+        0.19864530159097524
+      ],
+      "rmse_finite_n": 40,
+      "rmse_finite_median": 0.07434531141261147,
+      "rmse_finite_mean": 0.1354327317765893,
+      "rmse_penalty_median": 0.07434531141261147,
+      "rmse_penalty_mean": 0.1354327317765893,
+      "failure_type_counts": {},
+      "n_false_eligible_mean": 0.075
+    },
+    "decision_only": {
+      "failure_k": 0,
+      "failure_rate_wilson95": [
+        0.0,
+        0.0,
+        0.08762453925039232
+      ],
+      "truth_selected_k": 39,
+      "truth_selected_rate_wilson95": [
+        0.975,
+        0.8711834051199223,
+        0.9955732825922052
+      ],
+      "truth_excluded_operational_k": 1,
+      "truth_eligibility_lost_k": 1,
+      "truth_eligibility_lost_rate_wilson95": [
+        0.025,
+        0.0044267174077949195,
+        0.1288165948800778
+      ],
+      "rmse_finite_n": 40,
+      "rmse_finite_median": 0.07434531141261147,
+      "rmse_finite_mean": 0.10334176358232412,
+      "rmse_penalty_median": 0.07434531141261147,
+      "rmse_penalty_mean": 0.10334176358232412,
+      "failure_type_counts": {},
+      "n_false_eligible_mean": 0.175
+    },
+    "full_evidence_gate": {
+      "failure_k": 0,
+      "failure_rate_wilson95": [
+        0.0,
+        0.0,
+        0.08762453925039232
+      ],
+      "truth_selected_k": 40,
+      "truth_selected_rate_wilson95": [
+        1.0,
+        0.9123754607496077,
+        1.0
+      ],
+      "truth_excluded_operational_k": 0,
+      "truth_eligibility_lost_k": 0,
+      "truth_eligibility_lost_rate_wilson95": [
+        0.0,
+        0.0,
+        0.08762453925039232
+      ],
+      "rmse_finite_n": 40,
+      "rmse_finite_median": 0.07433516631892698,
+      "rmse_finite_mean": 0.08297215713044082,
+      "rmse_penalty_median": 0.07433516631892698,
+      "rmse_penalty_mean": 0.08297215713044082,
+      "failure_type_counts": {},
+      "n_false_eligible_mean": 0.125
+    }
+  },
+  "A_minus_B": {
+    "delta_rmse_penalty_median": 0.0,
+    "delta_rmse_penalty_mean": 0.032090968194265185,
+    "n_positive": 2,
+    "n_negative": 0,
+    "n_zero": 38
+  },
+  "A_minus_C": {
+    "delta_rmse_penalty_median": 0.0,
+    "delta_rmse_penalty_mean": 0.052460574646148485,
+    "n_positive": 8,
+    "n_negative": 5,
+    "n_zero": 27
+  },
+  "B_minus_C": {
+    "delta_rmse_penalty_median": 0.0,
+    "delta_rmse_penalty_mean": 0.0203696064518833,
+    "n_positive": 8,
+    "n_negative": 5,
+    "n_zero": 27
+  },
+  "truth_selection_pairs": {
+    "A_yes_B_no": 0,
+    "A_no_B_yes": 2,
+    "A_yes_C_no": 0,
+    "A_no_C_yes": 3
+  },
+  "wall_s_total": 755.4863009000037,
+  "version": "ege-stage2-0.1.0",
+  "seeds": [
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240
+  ],
+  "chi2_status": "OPERATIONAL_ONLY",
+  "environment": {
+    "platform": "Windows-10-10.0.19045-SP0",
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "numpy": "2.5.0",
+    "scipy": "1.17.1",
+    "executable": "D:\\home\\venv\\Scripts\\python.exe"
+  }
+}

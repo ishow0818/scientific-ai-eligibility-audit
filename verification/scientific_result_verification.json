@@ -1,0 +1,209 @@
+{
+  "modules": [
+    {
+      "module": "Anchor main (seeds 1–20)",
+      "method": "frozen endpoints + nature_revision_audit + corrected_stats verdict",
+      "actual": {
+        "native_alt_fi": 78,
+        "neutral_alt_fi": 80,
+        "no_single_round_violation": 26,
+        "with_single_round_violation": 52,
+        "no_violation_seeds": 15,
+        "native_events_neutral_retained": 71,
+        "E1_seed_k": 20
+      },
+      "expected_matched": true,
+      "status": "PASS",
+      "note": "Risk-record denominator 446 is stated in manuscript/methods; not re-derived in this finalize pass from seed JSON (seed JSONs 01–20 present)."
+    },
+    {
+      "module": "No-Opp ablation (seeds 1–20)",
+      "method": "frozen formal_v2 presence + prior artifact scan",
+      "status": "PASS",
+      "inputs": [
+        "outputs/pilot_opp_feedback_ablation_formal_v2"
+      ],
+      "note": "Formal outputs present; counts 78/79 and true-FI 2/1 appear in artifacts (see package)."
+    },
+    {
+      "module": "True-model loss (seeds 21–40)",
+      "method": "nature_revision_audit truth_loss_f1_rows + outputs/pilot_truth_loss_v2",
+      "actual_seeds": [
+        29,
+        31,
+        36,
+        37
+      ],
+      "expected_seeds": [
+        29,
+        31,
+        36,
+        37
+      ],
+      "status": "PASS",
+      "note": "4/20 F1 seeds match. Descriptive 19-point RMSE ratios remain as manuscript values; not re-upgraded to holdout claims."
+    },
+    {
+      "module": "Final eligibility / Open / Decision-Only / Full Gate (201–240)",
+      "method": "readonly recompute + frozen lock + pytest 44 passed",
+      "actual": {
+        "native": 37,
+        "open": 40,
+        "decision_only": 39,
+        "full_gate": 40,
+        "rmse_mean": {
+          "native": 0.1354327317765893,
+          "open": 0.08467739393293651,
+          "decision_only": 0.10334176358232412,
+          "full_gate": 0.08297215713044082
+        },
+        "diffs": {
+          "open_ne_native": [
+            208,
+            224,
+            232
+          ],
+          "open_ne_decision": [
+            208
+          ],
+          "decision_ne_native": [
+            224,
+            232
+          ],
+          "open_eq_decision_all": false
+        }
+      },
+      "status": "PASS",
+      "open_truth_k": 40
+    },
+    {
+      "module": "Re-entry (seeds 121–140)",
+      "method": "canonical formal entry + matched_primary_summary",
+      "status": "PASS",
+      "canonical_entry": "rediscovery_cross/anchor_v2_aligned",
+      "runner": "run_confirmatory.py",
+      "matched_analysis": "matched_analysis.py",
+      "actual": {
+        "matched_events": 78,
+        "trajectory_diverged": 6,
+        "off_persistent": "78/78",
+        "on_persistent": "73/78",
+        "on_transient_or_reentry": "5/78",
+        "mcnemar_exact_p": 0.0625
+      },
+      "note": "Canonical formal entry resolved from provenance; manuscript counts matched."
+    },
+    {
+      "module": "Evidence-rule sensitivity (18 settings)",
+      "method": "read-only replay on frozen Anchor trajectories",
+      "status": "PASS",
+      "actual": {
+        "primary_exclusion_times_exact": "200/200",
+        "manuscript_rows_exact": "18/18"
+      },
+      "inputs": [
+        "verification/evidence_sensitivity/sensitivity_summary.csv",
+        "verification/evidence_sensitivity/sensitivity_events.csv",
+        "verification/evidence_sensitivity/sensitivity_report.json"
+      ],
+      "note": "Primary FWER=0.05, persistence=2 exclusion times reproduced exactly; all manuscript sensitivity rows matched."
+    },
+    {
+      "module": "Minimal recursive dynamics",
+      "method": "identifiability_dynamics_final/results/final_verdict.json",
+      "status": "PASS",
+      "verdict_excerpt": {
+        "Engineering": "PASS",
+        "Local_amplification_mechanism": "PASS",
+        "Theoretical_R_id_threshold": "PASS",
+        "Growth_law_correspondence": "PASS",
+        "Recursion_specificity": "PASS",
+        "Large_N_persistence": "PASS",
+        "Bias_not_required": "PASS",
+        "Bias_selects_direction": "PASS"
+      },
+      "note": "Universal finite-time collapse threshold marked NOT CLAIMED in frozen verdict."
+    },
+    {
+      "module": "CoFI paired coverage (401–410)",
+      "method": "analysis/cofi_paired_coverage.json",
+      "status": "PASS",
+      "actual_w10": {
+        "10": {
+          "N": 186,
+          "C": 186
+        },
+        "20": {
+          "N": 87,
+          "C": 41
+        },
+        "30": {
+          "N": 10,
+          "C": 64
+        },
+        "40": {
+          "N": 0,
+          "C": 33
+        },
+        "50": {
+          "N": 0,
+          "C": 16
+        }
+      },
+      "neighpy": "CONFIRMED 0.1.9 on Python3.10"
+    },
+    {
+      "module": "ARROWS Phase-2E five cases",
+      "method": "arrows_phase2e_gate_verification/outputs/summary.json",
+      "status": "PASS",
+      "actual": {
+        "n_cases": 5,
+        "n_unique_candidate_routes": 4,
+        "on_off_gate_causation": 5,
+        "candidate_900_pure": 5,
+        "manifest_sha256_phase2d": "486f67c863b3d53a757e7ae34da03b7c12373d1d3c03d7509add41d4ab3653ee"
+      },
+      "provenance": "historical manifest hash search CONFIRMED matches under provenance/arrows/"
+    },
+    {
+      "module": "Figures (paper_audit trio)",
+      "method": "clean-room regeneration + SHA-256 + decoded pixel comparison",
+      "status": "PASS",
+      "files": [
+        "paper_audit/figures/fig1_audit_framework.png",
+        "paper_audit/figures/fig2_anchor_eligibility.png",
+        "paper_audit/figures/fig3_eligibility_consequences.png"
+      ],
+      "actual": {
+        "figure_count": 3,
+        "file_sha_equal": 3,
+        "pixel_equal": 3,
+        "differing_pixels_total": 0,
+        "max_channel_diff": 0
+      },
+      "note": "All three regenerated files match frozen manuscript PNGs exactly."
+    },
+    {
+      "module": "Environment provenance",
+      "status": "PASS",
+      "note": "WINDOWS_ENVIRONMENT_SNAPSHOT.md + pip freeze captured for D:\\home\\venv (3.12). neighpy confirmed on separate Python3.10 install."
+    },
+    {
+      "module": "Third-party assets",
+      "status": "PARTIAL",
+      "note": "Licenses/redistribution marked UNCLEAR for some ARROWS/CoFI field assets; excluded from public zips where unclear."
+    },
+    {
+      "module": "GitHub/Zenodo payload split",
+      "status": "PASS",
+      "actual": {
+        "distinct_trees": true,
+        "github_has_large_seed_json": false,
+        "zenodo_has_stage2_seeds": true
+      }
+    }
+  ],
+  "generated_utc": "2026-10-15T00:31:37.140136+00:00",
+  "final_status": "12 PASS / 1 PARTIAL / 0 FAIL",
+  "generated_note": "Status summary refreshed after final release cleanup; frozen scientific outputs unchanged."
+}
