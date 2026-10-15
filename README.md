@@ -10,16 +10,14 @@ It is the GitHub half of a split release:
 | Component | Location | Content |
 |---|---|---|
 | Code, configs, verification scripts, figures | **this repository** | author-generated code (MIT) |
-| Frozen seed-level outputs and large JSON records | Zenodo archive (reserved DOI, see [below](#zenodo-data-archive)) | archival frozen data |
+| Frozen seed-level outputs and large JSON records | Zenodo archive (DOI, see [below](#zenodo-data-archive)) | archival frozen data |
 | Private Windows reproducibility audit | not published | internal audit trail |
 
 ## Zenodo data archive
 
 Frozen experimental outputs and derived reproducibility artifacts are archived on Zenodo.
 
-Reserved DOI: https://doi.org/10.5281/zenodo.23395190
-
-The DOI becomes active when the Zenodo record is published.
+DOI: https://doi.org/10.5281/zenodo.23395190 (version 1.0.0, CC BY 4.0)
 
 The two public trees are intentionally distinct: this repository intentionally omits
 large seed-level JSON payloads (those are in the Zenodo deposit), and both public
